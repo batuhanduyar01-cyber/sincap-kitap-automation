@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Sanal ortam
+venv/
+.venv/
+env/
+.env
+
+# Sistem
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editör
+.vscode/
+.idea/
+
+# Routine çıktıları (her gün üretildiği için repo şişmesin)
+# outputs/ klasörünü commit etmek istemezseniz aşağıdakini açın:
+# outputs/
+
+# Geçici dosyalar
+*.tmp
+*.log
+layout.json
