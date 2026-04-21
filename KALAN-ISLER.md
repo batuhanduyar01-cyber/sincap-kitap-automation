@@ -1,35 +1,18 @@
-# Repo Hazır — Kalan 3 Manuel İş
+# Repo Hazır — Kalan İşler
 
-Cowork oturumunun ağ kısıtları nedeniyle 3 varlık sandbox'tan indirilemedi.
+Cowork oturumunun ağ kısıtları nedeniyle fontlar sandbox'tan indirilemedi.
 Kendi makinende yapman gereken son adımlar:
 
-## 1. Logo (senin dosyan)
+## 1. Logo ✅ (TAMAMLANDI)
 
-`assets/logo.png` → Sincap Kitap baykuş logosu (gözlüklü kahverengi baykuş +
-altında "SİNCAP KİTAP" yazısı). Transparan arka plan, ~400×400 veya daha
-büyük PNG. Mevcut dijital dosyandan kopyala.
+`assets/logo.png` hazır — senin gönderdiğin dosya, beyaz arka plan kaldırıldı,
+transparan PNG olarak kaydedildi.
 
-## 2. Karakter Referansı (Higgsfield ile üret)
+## 2. Karakter Referansı ✅ (TAMAMLANDI — Opsiyon A)
 
-Cowork sandbox'undan Higgsfield'a erişemedim. Kendi makinende Claude Code
-veya Cowork'te bir kez çalıştır:
-
-```
-higgsfield_soul_text_to_image:
-  prompt: "Cute cartoon orange squirrel character mascot with fluffy curled
-    tail, large round black-framed glasses, holding an open book in both paws,
-    children's book illustration style, flat vector-meets-watercolor hybrid,
-    soft clean lines, large expressive black eyes, rosy pink blush cheeks, two
-    small white front teeth, friendly warm smile, standing front-facing full
-    body pose, solid cream background, Marc Boutavant and Oliver Jeffers
-    illustration style, storybook art, no text, no frames, no borders, clean
-    edges, centered composition"
-  aspect_ratio: "1:1"
-  resolution: "1080p"
-  quality: "high"
-```
-
-Çıkan görseli `assets/character-reference.png` olarak kaydet.
+`assets/character-reference.png` hazır — logodaki sincap karakteri kırpılıp
+1024×1024 krem arka plan üzerine yerleştirildi. Higgsfield görseli üretmeye
+gerek kalmadı.
 
 ## 3. Fontlar
 
@@ -76,9 +59,8 @@ git push -u origin main
 - ✅ CHECKLIST ve başlangıç rehberi
 
 **Senin eklemen gerekenler**:
-- ⬜ `assets/logo.png` (mevcut dijital dosyandan)
-- ⬜ `assets/character-reference.png` (Higgsfield ile)
+- ✅ `assets/logo.png` (commit `c8afc77`)
+- ✅ `assets/character-reference.png` (logo kırpımı — Opsiyon A)
 - ⬜ `assets/fonts/BagelFatOne-Regular.ttf`
 - ⬜ `assets/fonts/Baloo2-Regular.ttf`
-- ⬜ GitHub remote + push
-- ⬜ 3 Routine'i claude.ai'de oluştur
+- ⬜ 3 Routine'i claude.ai/code/routines'te oluştur
