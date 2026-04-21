@@ -42,15 +42,21 @@ Konuya uygun TEK palette seç, 5 slide boyunca sabit kullan:
 
 Örnek eşleştirmeler: ayrılık kaygısı/korkular → MOR, merak/sorular → HARDAL, sıcak duygu → AHUDUDU, okul/kreş → TURUNCU, sakinlik/uyku → TOZ MAVİSİ.
 
-## ADIM 4 — HIGGSFIELD İLE İLLÜSTRASYONLAR (5 görsel)
+## ADIM 4 — HIGGSFIELD İLE İLLÜSTRASYONLAR (5 görsel, HTTP API)
 
-`higgsfield_soul_text_to_image` tool'unu kullan.
+Bu Routine'de MCP tool yok — görselleri `scripts/higgsfield_api.py` ile üret.
+
+**Önce credentials'ı env değişkeni olarak ayarla:**
+```bash
+export HIGGSFIELD_API_KEY="b0ce4df9-80ac-44a3-8f9d-be0869a428e1"
+export HIGGSFIELD_API_SECRET="be73a38e07e4faebd09666eb51d1fe04eea7feea96d83b81ca4640d33531e35c"
+```
 
 **Ortak parametreler:**
-- `aspect_ratio`: "4:5"
-- `resolution`: "1080p"
-- `quality`: "high"
-- `reference_image_urls`: `["https://raw.githubusercontent.com/{USER}/sincap-kitap-automation/main/assets/character-reference.png"]` (repo URL'ine göre güncelle)
+- `--aspect-ratio 4:5`
+- `--resolution 1080p`
+- `--quality high`
+- `--reference-image-url "https://raw.githubusercontent.com/batuhanduyar01-cyber/sincap-kitap-automation/main/assets/character-reference.png"`
 
 **Prompt iskeleti (tüm slide'lar için ortak):**
 ```
@@ -66,7 +72,16 @@ Children's book illustration, watercolor gouache painting, textured brush stroke
 - Slide 4: "family scene, parent and child reading book together, warm cozy bedroom setting"
 - Slide 5: "character waving goodbye, smiling, sitting on a book stack"
 
-Görselleri sırayla üret. Her birini `outputs/{TARİH}-sabah-9/raw/slide-{N}-raw.png` olarak indir.
+**Her slide için Bash çağrısı (örnek — slide 1):**
+```bash
+python3 scripts/higgsfield_api.py \
+  --prompt "Children's book illustration, watercolor gouache painting, textured brush strokes, cute bear cub character, large expressive eyes, rosy blush cheeks, warm painterly palette, solid #7E5BA0 background, Oliver Jeffers and Marc Boutavant style, storybook art, no text, no frames, no borders, soft painterly shading, portrait orientation, big character standing on a small hill, decorative leaves and stars around, looking hopeful" \
+  --output "outputs/{TARİH}-sabah-9/raw/slide-1-raw.png" \
+  --aspect-ratio 4:5 --resolution 1080p --quality high \
+  --reference-image-url "https://raw.githubusercontent.com/batuhanduyar01-cyber/sincap-kitap-automation/main/assets/character-reference.png"
+```
+
+5 slide için 5 kez çağır (sırayla). Her biri `outputs/{TARİH}-sabah-9/raw/slide-{N}-raw.png` olarak kaydedilir. Bir iş ~30-90 saniye sürer.
 
 ## ADIM 5 — PYTHON PIL İLE METİN BİNDİRME
 

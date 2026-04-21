@@ -33,13 +33,21 @@ Konuya uygun TEK palette seç, 5 slide boyunca sabit kullan (detay için sabah-9
 
 AHUDUDU #E63B5C / MOR #7E5BA0 / HARDAL #F5C82E / TURUNCU #E97E28 / TOZ MAVİSİ #C9DDEC / MERCAN #F08A7B
 
-## ADIM 4 — HIGGSFIELD İLE İLLÜSTRASYONLAR (5 görsel)
+## ADIM 4 — HIGGSFIELD İLE İLLÜSTRASYONLAR (5 görsel, HTTP API)
 
-`higgsfield_soul_text_to_image`:
-- `aspect_ratio`: "4:5"
-- `resolution`: "1080p"
-- `quality`: "high"
-- `reference_image_urls`: master karakter URL'i (ADIM 3 kurulumda oluşturulan)
+Bu Routine'de MCP tool yok — `scripts/higgsfield_api.py` helper'ı kullan.
+
+**Credentials:**
+```bash
+export HIGGSFIELD_API_KEY="b0ce4df9-80ac-44a3-8f9d-be0869a428e1"
+export HIGGSFIELD_API_SECRET="be73a38e07e4faebd09666eb51d1fe04eea7feea96d83b81ca4640d33531e35c"
+```
+
+**Ortak parametreler:**
+- `--aspect-ratio 4:5`
+- `--resolution 1080p`
+- `--quality high`
+- `--reference-image-url "https://raw.githubusercontent.com/batuhanduyar01-cyber/sincap-kitap-automation/main/assets/character-reference.png"`
 
 **Prompt iskeleti:**
 ```
@@ -55,7 +63,16 @@ Children's book illustration, watercolor gouache painting, textured brush stroke
 - Slide 4: "calm adult-child scene, cozy bonding moment (reading book, eating, chatting)"
 - Slide 5: "character waving goodbye, cheerful smile, standing next to small book stack"
 
-Görselleri sırayla üret, `outputs/{TARİH}-ogle-12/raw/slide-{N}-raw.png` olarak indir.
+**Bash çağrısı (örnek — slide 1):**
+```bash
+python3 scripts/higgsfield_api.py \
+  --prompt "Children's book illustration, watercolor gouache painting, textured brush strokes, cute kitten character, large expressive eyes, rosy blush cheeks, warm painterly palette, solid #F5C82E background, Marc Boutavant and Oliver Jeffers style, storybook art, no text, no frames, portrait orientation, character in dynamic expressive pose, matches topic, 5-8 decorative elements around" \
+  --output "outputs/{TARİH}-ogle-12/raw/slide-1-raw.png" \
+  --aspect-ratio 4:5 --resolution 1080p --quality high \
+  --reference-image-url "https://raw.githubusercontent.com/batuhanduyar01-cyber/sincap-kitap-automation/main/assets/character-reference.png"
+```
+
+5 slide için 5 kez çağır. Her biri `outputs/{TARİH}-ogle-12/raw/slide-{N}-raw.png` olarak kaydedilir.
 
 ## ADIM 5 — PYTHON PIL İLE METİN BİNDİRME
 

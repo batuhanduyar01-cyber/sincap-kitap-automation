@@ -33,9 +33,21 @@ Ayrıca üret:
 
 İkindi teması için TURUNCU / HARDAL / MERCAN / TOZ MAVİSİ tercih et (gün sonu sıcak hissi). Detay tabloya bak (routine-sabah-9.md).
 
-## ADIM 4 — HIGGSFIELD İLLÜSTRASYONLAR (5 görsel)
+## ADIM 4 — HIGGSFIELD İLLÜSTRASYONLAR (5 görsel, HTTP API)
 
-`higgsfield_soul_text_to_image`: aspect_ratio "4:5", resolution "1080p", quality "high", master karakter reference.
+Bu Routine'de MCP tool yok — `scripts/higgsfield_api.py` helper'ı kullan.
+
+**Credentials:**
+```bash
+export HIGGSFIELD_API_KEY="b0ce4df9-80ac-44a3-8f9d-be0869a428e1"
+export HIGGSFIELD_API_SECRET="be73a38e07e4faebd09666eb51d1fe04eea7feea96d83b81ca4640d33531e35c"
+```
+
+**Ortak parametreler:**
+- `--aspect-ratio 4:5`
+- `--resolution 1080p`
+- `--quality high`
+- `--reference-image-url "https://raw.githubusercontent.com/batuhanduyar01-cyber/sincap-kitap-automation/main/assets/character-reference.png"`
 
 **Prompt iskeleti:**
 ```
@@ -49,7 +61,16 @@ Children's book illustration, watercolor gouache painting, textured brush stroke
 - Slide 4: "warm parent-child activity scene (cooking, reading, gardening, storytelling)"
 - Slide 5: "character smiling and waving, surrounded by small books or warm objects"
 
-Görselleri indir: `outputs/{TARİH}-ikindi-15/raw/slide-{N}-raw.png`
+**Bash çağrısı (örnek — slide 1):**
+```bash
+python3 scripts/higgsfield_api.py \
+  --prompt "Children's book illustration, watercolor gouache painting, textured brush strokes, cute fawn character in rich scene, multiple storybook characters, large expressive eyes, rosy cheeks, warm painterly palette, solid #E97E28 background, Oliver Jeffers and Marc Boutavant style, storybook art, no text, no frames, portrait orientation, central character on colorful background, 2-3 small side objects" \
+  --output "outputs/{TARİH}-ikindi-15/raw/slide-1-raw.png" \
+  --aspect-ratio 4:5 --resolution 1080p --quality high \
+  --reference-image-url "https://raw.githubusercontent.com/batuhanduyar01-cyber/sincap-kitap-automation/main/assets/character-reference.png"
+```
+
+5 slide için 5 kez çağır. Her biri `outputs/{TARİH}-ikindi-15/raw/slide-{N}-raw.png` olarak kaydedilir.
 
 ## ADIM 5 — PYTHON PIL METİN BİNDİRME
 
