@@ -16,12 +16,13 @@ veya Cowork'te bir kez çalıştır:
 
 ```
 higgsfield_soul_text_to_image:
-  prompt: "Cute brown baby squirrel character mascot with large round black
-    glasses, children's book style, watercolor gouache painting, soft textured
-    brush strokes, large expressive eyes, rosy blush cheeks, friendly warm
-    smile, standing front-facing full body portrait pose, solid cream
-    background, Oliver Jeffers and Marc Boutavant illustration style, storybook
-    art, no text, no frames, no borders, painterly shading, high detail, clean
+  prompt: "Cute cartoon orange squirrel character mascot with fluffy curled
+    tail, large round black-framed glasses, holding an open book in both paws,
+    children's book illustration style, flat vector-meets-watercolor hybrid,
+    soft clean lines, large expressive black eyes, rosy pink blush cheeks, two
+    small white front teeth, friendly warm smile, standing front-facing full
+    body pose, solid cream background, Marc Boutavant and Oliver Jeffers
+    illustration style, storybook art, no text, no frames, no borders, clean
     edges, centered composition"
   aspect_ratio: "1:1"
   resolution: "1080p"
