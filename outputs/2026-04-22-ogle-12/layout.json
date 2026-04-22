@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-04-22-ogle-12",
+  "palette": {
+    "bg": "#F08A7B",
+    "accent": "#7E5BA0",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "outputs/2026-04-22-ogle-12/raw/slide-1-raw.png",
+      "output": "outputs/2026-04-22-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "İçimde Koca Bir",
+      "title_accent": "Yanardağ Var!",
+      "subtitle": "Küçük bedenlere sığmayan büyük duygular.",
+      "decorations": true
+    },
+    {
+      "raw_image": "outputs/2026-04-22-ogle-12/raw/slide-2-raw.png",
+      "output": "outputs/2026-04-22-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Sen bana sarılınca, öfkem minik bir buluta dönüşüyor."
+    },
+    {
+      "raw_image": "outputs/2026-04-22-ogle-12/raw/slide-3-raw.png",
+      "output": "outputs/2026-04-22-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Küçücüğüm ama içimde kocaman duygular var, bazen taşıyamıyorum."
+    },
+    {
+      "raw_image": "outputs/2026-04-22-ogle-12/raw/slide-4-raw.png",
+      "output": "outputs/2026-04-22-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Öfke patlaması inat değil, büyük duygunun küçük bedene sığamamasıdır. Yanına diz çökün, sessizce kalın. Duyguyu isimlendirmek fırtınayı yumuşatır."
+    },
+    {
+      "raw_image": "outputs/2026-04-22-ogle-12/raw/slide-5-raw.png",
+      "output": "outputs/2026-04-22-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Fırtınam dindi, şimdi kitap zamanı. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}

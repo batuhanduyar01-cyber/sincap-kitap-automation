@@ -2,3 +2,5 @@
 
 Son 14 günün konuları (tekrar kontrolü için). Format: `- YYYY-MM-DD: konu`
 
+- 2026-04-22: öfke patlaması
+
