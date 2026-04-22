@@ -42,28 +42,20 @@ Konuya uygun TEK palette seç, 5 slide boyunca sabit kullan:
 
 Örnek eşleştirmeler: ayrılık kaygısı/korkular → MOR, merak/sorular → HARDAL, sıcak duygu → AHUDUDU, okul/kreş → TURUNCU, sakinlik/uyku → TOZ MAVİSİ.
 
-## ADIM 4 — HIGGSFIELD İLE İLLÜSTRASYONLAR (5 görsel, HTTP API)
+## ADIM 4 — HIGGSFIELD GÖRSELLERİ (Vercel relay üzerinden)
 
-Bu Routine'de MCP tool yok — görselleri `scripts/higgsfield_api.py` ile üret.
+> **Neden relay?** Higgsfield'ın Cloudflare WAF'ı Anthropic Routine IP'lerini blokluyor (403 host_not_allowed). Onun için Routine, Vercel'deki bir aracıya çağrı atar. Aracı, Higgsfield'a submit eder ve üretilen PNG'leri doğrudan bu repo'nun aktif branch'ine `assets/gorseller/<slot>/slide-<N>.png` yoluna commit'ler.
 
-**Önce credentials'ı env değişkeni olarak ayarla:**
-```bash
-export HIGGSFIELD_API_KEY="b0ce4df9-80ac-44a3-8f9d-be0869a428e1"
-export HIGGSFIELD_API_SECRET="be73a38e07e4faebd09666eb51d1fe04eea7feea96d83b81ca4640d33531e35c"
-```
+**Gerekli env (Routine secrets'te ayarlı olmalı — prompt içinde hardcode ETME):**
+- `RELAY_URL` → örn. `https://vercel-hf-probe.vercel.app`
+- `RELAY_SHARED_SECRET`
 
-**Ortak parametreler:**
-- `--aspect-ratio 4:5`
-- `--resolution 1080p`
-- `--quality high`
-- `--reference-image-url "https://raw.githubusercontent.com/batuhanduyar01-cyber/sincap-kitap-automation/main/assets/character-reference.png"`
-
-**Prompt iskeleti (tüm slide'lar için ortak):**
+**Prompt iskeleti (her slide için, TEK STRING halinde):**
 ```
 Children's book illustration, watercolor gouache painting, textured brush strokes, cute {KARAKTER} character, large expressive eyes, rosy blush cheeks, warm painterly palette, solid {PALETTE_HEX} background, Oliver Jeffers and Marc Boutavant style, storybook art, no text, no frames, no borders, soft painterly shading, portrait orientation, {SAHNE}
 ```
 
-**{KARAKTER}** konuya göre tek hayvan seç ve 5 slide'da aynı kalsın: mole (köstebek) / bear cub (ayı yavrusu) / kitten (kedi yavrusu) / little spider (minik örümcek) / baby squirrel (sincap yavrusu) / panda cub / fawn (geyik yavrusu) / hedgehog (kirpi).
+**{KARAKTER}** konuya göre tek hayvan seç ve 5 slide'da aynı kalsın: mole (köstebek) / bear cub / kitten / little spider / baby squirrel / panda cub / fawn / hedgehog.
 
 **{SAHNE} her slide için farklı:**
 - Slide 1: "big character standing on a small hill, decorative leaves and stars around, looking hopeful"
@@ -72,16 +64,52 @@ Children's book illustration, watercolor gouache painting, textured brush stroke
 - Slide 4: "family scene, parent and child reading book together, warm cozy bedroom setting"
 - Slide 5: "character waving goodbye, smiling, sitting on a book stack"
 
-**Her slide için Bash çağrısı (örnek — slide 1):**
+**Adım 4a — 5 prompt'u JSON olarak yaz:**
+
 ```bash
-python3 scripts/higgsfield_api.py \
-  --prompt "Children's book illustration, watercolor gouache painting, textured brush strokes, cute bear cub character, large expressive eyes, rosy blush cheeks, warm painterly palette, solid #7E5BA0 background, Oliver Jeffers and Marc Boutavant style, storybook art, no text, no frames, no borders, soft painterly shading, portrait orientation, big character standing on a small hill, decorative leaves and stars around, looking hopeful" \
-  --output "outputs/{TARİH}-sabah-9/raw/slide-1-raw.png" \
-  --aspect-ratio 4:5 --resolution 1080p --quality high \
-  --reference-image-url "https://raw.githubusercontent.com/batuhanduyar01-cyber/sincap-kitap-automation/main/assets/character-reference.png"
+SLOT="{TARİH}-sabah-9"
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+
+python3 - <<'PY'
+import json, os
+slot = os.environ.get("SLOT") or "{TARİH}-sabah-9"
+prompts = [
+    # 5 prompt — her biri yukarıdaki iskelet + o slide'a özel sahne.
+    # Aynı PALETTE_HEX ve aynı KARAKTER kullan.
+    {"prompt": "Children's book illustration, ... solid #7E5BA0 background ... big character standing on a small hill, decorative leaves and stars around, looking hopeful",
+     "width_and_height": "1080x1350", "quality": "1080p"},
+    {"prompt": "... slide 2 sahnesi ...", "width_and_height": "1080x1350", "quality": "1080p"},
+    {"prompt": "... slide 3 sahnesi ...", "width_and_height": "1080x1350", "quality": "1080p"},
+    {"prompt": "... slide 4 sahnesi ...", "width_and_height": "1080x1350", "quality": "1080p"},
+    {"prompt": "... slide 5 sahnesi ...", "width_and_height": "1080x1350", "quality": "1080p"},
+]
+open("/tmp/prompts.json","w",encoding="utf-8").write(json.dumps(prompts, ensure_ascii=False))
+print("wrote /tmp/prompts.json")
+PY
 ```
 
-5 slide için 5 kez çağır (sırayla). Her biri `outputs/{TARİH}-sabah-9/raw/slide-{N}-raw.png` olarak kaydedilir. Bir iş ~30-90 saniye sürer.
+**Adım 4b — Relay'e submit et ve görsellerin GitHub'a commit'lenmesini bekle:**
+
+```bash
+python3 scripts/relay_api.py submit-batch \
+    --slot    "$SLOT" \
+    --branch  "$BRANCH" \
+    --prompts-file /tmp/prompts.json
+```
+
+Bu komut:
+1. `/api/hf/submit`'e POST atar → relay 5 iş Higgsfield'a gönderir (webhook dahil).
+2. Higgsfield her slide bittikçe `/api/hf/hook`'u çağırır → relay PNG'yi indirir ve `assets/gorseller/$SLOT/slide-N.png` yoluna branch'e commit'ler.
+3. Script `/api/hf/status`'ı ~10s aralıkla poll eder; 5/5 hazır olunca exit 0.
+4. Hata durumunda exit 3/4/5 döner ve routine durur.
+
+**Adım 4c — Webhook commit'lerini local'e çek:**
+
+```bash
+git pull --ff-only origin "$BRANCH"
+ls -la assets/gorseller/"$SLOT"/
+# Beklenen: slide-1.png ... slide-5.png
+```
 
 ## ADIM 5 — PYTHON PIL İLE METİN BİNDİRME
 
@@ -97,7 +125,7 @@ Bash üzerinden `scripts/overlay_text.py` scriptini çalıştır. Önce bir `lay
   },
   "slides": [
     {
-      "raw_image": "outputs/{TARİH}-sabah-9/raw/slide-1-raw.png",
+      "raw_image": "assets/gorseller/{TARİH}-sabah-9/slide-1.png",
       "output": "outputs/{TARİH}-sabah-9/slide-1.png",
       "type": "cover",
       "title_main": "Anne, Beni",
@@ -106,26 +134,26 @@ Bash üzerinden `scripts/overlay_text.py` scriptini çalıştır. Önce bir `lay
       "decorations": true
     },
     {
-      "raw_image": "outputs/{TARİH}-sabah-9/raw/slide-2-raw.png",
+      "raw_image": "assets/gorseller/{TARİH}-sabah-9/slide-2.png",
       "output": "outputs/{TARİH}-sabah-9/slide-2.png",
       "type": "inner",
       "body": "Annesinden ayrılırken ağlayan çocuğu görünce içiniz sıkışıyor. Bu sahne tanıdık geliyor mu?"
     },
     {
-      "raw_image": "outputs/{TARİH}-sabah-9/raw/slide-3-raw.png",
+      "raw_image": "assets/gorseller/{TARİH}-sabah-9/slide-3.png",
       "output": "outputs/{TARİH}-sabah-9/slide-3.png",
       "type": "quote",
       "quote": "Seni göremeyince kalbim hızlı atıyor."
     },
     {
-      "raw_image": "outputs/{TARİH}-sabah-9/raw/slide-4-raw.png",
+      "raw_image": "assets/gorseller/{TARİH}-sabah-9/slide-4.png",
       "output": "outputs/{TARİH}-sabah-9/slide-4.png",
       "type": "tip",
       "title_accent": "UNUTMAYIN!",
       "body": "Ayrılık kaygısı gelişimin bir parçası. Kısa ama net vedalar, güvenli bir geçişi kurar. Bugün: 'Seni saat 3'te alacağım' gibi somut bir söz verin."
     },
     {
-      "raw_image": "outputs/{TARİH}-sabah-9/raw/slide-5-raw.png",
+      "raw_image": "assets/gorseller/{TARİH}-sabah-9/slide-5.png",
       "output": "outputs/{TARİH}-sabah-9/slide-5.png",
       "type": "cta",
       "body": "Bu süreçte sana eşlik edecek kitaplar için Sincap Kitap'ı takip et 🐿️"

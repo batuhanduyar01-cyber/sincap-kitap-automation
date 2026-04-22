@@ -33,23 +33,15 @@ Konuya uygun TEK palette seç, 5 slide boyunca sabit kullan (detay için sabah-9
 
 AHUDUDU #E63B5C / MOR #7E5BA0 / HARDAL #F5C82E / TURUNCU #E97E28 / TOZ MAVİSİ #C9DDEC / MERCAN #F08A7B
 
-## ADIM 4 — HIGGSFIELD İLE İLLÜSTRASYONLAR (5 görsel, HTTP API)
+## ADIM 4 — HIGGSFIELD GÖRSELLERİ (Vercel relay üzerinden)
 
-Bu Routine'de MCP tool yok — `scripts/higgsfield_api.py` helper'ı kullan.
+> **Neden relay?** Higgsfield'ın Cloudflare WAF'ı Anthropic Routine IP'lerini blokluyor (403 host_not_allowed). Relay, Vercel üzerinde çalışır; 5 prompt'u Higgsfield'a submit eder ve webhook geri dönünce PNG'leri bu branch'e `assets/gorseller/<slot>/slide-<N>.png` olarak commit'ler.
 
-**Credentials:**
-```bash
-export HIGGSFIELD_API_KEY="b0ce4df9-80ac-44a3-8f9d-be0869a428e1"
-export HIGGSFIELD_API_SECRET="be73a38e07e4faebd09666eb51d1fe04eea7feea96d83b81ca4640d33531e35c"
-```
+**Gerekli env (Routine secrets'te ayarlı):**
+- `RELAY_URL` → `https://vercel-hf-probe.vercel.app`
+- `RELAY_SHARED_SECRET`
 
-**Ortak parametreler:**
-- `--aspect-ratio 4:5`
-- `--resolution 1080p`
-- `--quality high`
-- `--reference-image-url "https://raw.githubusercontent.com/batuhanduyar01-cyber/sincap-kitap-automation/main/assets/character-reference.png"`
-
-**Prompt iskeleti:**
+**Prompt iskeleti (her slide için):**
 ```
 Children's book illustration, watercolor gouache painting, textured brush strokes, cute {KARAKTER} character, large expressive eyes, rosy blush cheeks, warm painterly palette, solid {PALETTE_HEX} background, Marc Boutavant and Oliver Jeffers style, storybook art, no text, no frames, portrait orientation, {SAHNE}
 ```
@@ -63,16 +55,41 @@ Children's book illustration, watercolor gouache painting, textured brush stroke
 - Slide 4: "calm adult-child scene, cozy bonding moment (reading book, eating, chatting)"
 - Slide 5: "character waving goodbye, cheerful smile, standing next to small book stack"
 
-**Bash çağrısı (örnek — slide 1):**
+**Adım 4a — 5 prompt'u JSON olarak yaz:**
+
 ```bash
-python3 scripts/higgsfield_api.py \
-  --prompt "Children's book illustration, watercolor gouache painting, textured brush strokes, cute kitten character, large expressive eyes, rosy blush cheeks, warm painterly palette, solid #F5C82E background, Marc Boutavant and Oliver Jeffers style, storybook art, no text, no frames, portrait orientation, character in dynamic expressive pose, matches topic, 5-8 decorative elements around" \
-  --output "outputs/{TARİH}-ogle-12/raw/slide-1-raw.png" \
-  --aspect-ratio 4:5 --resolution 1080p --quality high \
-  --reference-image-url "https://raw.githubusercontent.com/batuhanduyar01-cyber/sincap-kitap-automation/main/assets/character-reference.png"
+SLOT="{TARİH}-ogle-12"
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+
+python3 - <<'PY'
+import json
+prompts = [
+    {"prompt": "Children's book illustration, ... solid #F5C82E background ... slide 1 sahnesi",
+     "width_and_height": "1080x1350", "quality": "1080p"},
+    {"prompt": "... slide 2 sahnesi ...", "width_and_height": "1080x1350", "quality": "1080p"},
+    {"prompt": "... slide 3 sahnesi ...", "width_and_height": "1080x1350", "quality": "1080p"},
+    {"prompt": "... slide 4 sahnesi ...", "width_and_height": "1080x1350", "quality": "1080p"},
+    {"prompt": "... slide 5 sahnesi ...", "width_and_height": "1080x1350", "quality": "1080p"},
+]
+open("/tmp/prompts.json","w",encoding="utf-8").write(json.dumps(prompts, ensure_ascii=False))
+PY
 ```
 
-5 slide için 5 kez çağır. Her biri `outputs/{TARİH}-ogle-12/raw/slide-{N}-raw.png` olarak kaydedilir.
+**Adım 4b — Submit + poll:**
+
+```bash
+python3 scripts/relay_api.py submit-batch \
+    --slot "$SLOT" --branch "$BRANCH" --prompts-file /tmp/prompts.json
+```
+
+Script 5/5 PNG commit'lenene kadar bekler (~2-5 dk). Hatalı exit: 3 (submit fail) / 4 (timeout) / 5 (webhook permanent error).
+
+**Adım 4c — Commit'leri local'e çek:**
+
+```bash
+git pull --ff-only origin "$BRANCH"
+ls -la assets/gorseller/"$SLOT"/
+```
 
 ## ADIM 5 — PYTHON PIL İLE METİN BİNDİRME
 
@@ -87,15 +104,15 @@ python3 scripts/higgsfield_api.py \
     "text": "#3D2817"
   },
   "slides": [
-    {"raw_image": "...raw/slide-1-raw.png", "output": ".../slide-1.png", "type": "cover",
+    {"raw_image": "assets/gorseller/{TARİH}-ogle-12/slide-1.png", "output": ".../slide-1.png", "type": "cover",
      "title_main": "Bebekler Dünyayı", "title_accent": "Nasıl Keşfeder?", "subtitle": "Her dokunuş yeni bir macera.", "decorations": true},
-    {"raw_image": "...raw/slide-2-raw.png", "output": ".../slide-2.png", "type": "quote",
+    {"raw_image": "assets/gorseller/{TARİH}-ogle-12/slide-2.png", "output": ".../slide-2.png", "type": "quote",
      "quote": "Seninle oyun oynamak en sevdiğim şey."},
-    {"raw_image": "...raw/slide-3-raw.png", "output": ".../slide-3.png", "type": "quote",
+    {"raw_image": "assets/gorseller/{TARİH}-ogle-12/slide-3.png", "output": ".../slide-3.png", "type": "quote",
      "quote": "Minik minik adımlar atabilirim ama kocaman bir dünyam var."},
-    {"raw_image": "...raw/slide-4-raw.png", "output": ".../slide-4.png", "type": "tip",
+    {"raw_image": "assets/gorseller/{TARİH}-ogle-12/slide-4.png", "output": ".../slide-4.png", "type": "tip",
      "title_accent": "Ebeveyn Notu", "body": "Çocuğunuz her şeye dokunarak öğrenir. Güvenli alan tanıyın, merakı söndürmeyin."},
-    {"raw_image": "...raw/slide-5-raw.png", "output": ".../slide-5.png", "type": "cta",
+    {"raw_image": "assets/gorseller/{TARİH}-ogle-12/slide-5.png", "output": ".../slide-5.png", "type": "cta",
      "body": "Sincap'ın maceralarının tamamı için Sincap Kitap'ı takip et 🐿️"}
   ]
 }
