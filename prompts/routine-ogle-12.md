@@ -65,11 +65,11 @@ python3 - <<'PY'
 import json
 prompts = [
     {"prompt": "Children's book illustration, ... solid #F5C82E background ... slide 1 sahnesi",
-     "width_and_height": "1080x1350", "quality": "1080p"},
-    {"prompt": "... slide 2 sahnesi ...", "width_and_height": "1080x1350", "quality": "1080p"},
-    {"prompt": "... slide 3 sahnesi ...", "width_and_height": "1080x1350", "quality": "1080p"},
-    {"prompt": "... slide 4 sahnesi ...", "width_and_height": "1080x1350", "quality": "1080p"},
-    {"prompt": "... slide 5 sahnesi ...", "width_and_height": "1080x1350", "quality": "1080p"},
+     "width_and_height": "1152x1536", "quality": "1080p"},
+    {"prompt": "... slide 2 sahnesi ...", "width_and_height": "1152x1536", "quality": "1080p"},
+    {"prompt": "... slide 3 sahnesi ...", "width_and_height": "1152x1536", "quality": "1080p"},
+    {"prompt": "... slide 4 sahnesi ...", "width_and_height": "1152x1536", "quality": "1080p"},
+    {"prompt": "... slide 5 sahnesi ...", "width_and_height": "1152x1536", "quality": "1080p"},
 ]
 open("/tmp/prompts.json","w",encoding="utf-8").write(json.dumps(prompts, ensure_ascii=False))
 PY

@@ -77,11 +77,11 @@ prompts = [
     # 5 prompt — her biri yukarıdaki iskelet + o slide'a özel sahne.
     # Aynı PALETTE_HEX ve aynı KARAKTER kullan.
     {"prompt": "Children's book illustration, ... solid #7E5BA0 background ... big character standing on a small hill, decorative leaves and stars around, looking hopeful",
-     "width_and_height": "1080x1350", "quality": "1080p"},
-    {"prompt": "... slide 2 sahnesi ...", "width_and_height": "1080x1350", "quality": "1080p"},
-    {"prompt": "... slide 3 sahnesi ...", "width_and_height": "1080x1350", "quality": "1080p"},
-    {"prompt": "... slide 4 sahnesi ...", "width_and_height": "1080x1350", "quality": "1080p"},
-    {"prompt": "... slide 5 sahnesi ...", "width_and_height": "1080x1350", "quality": "1080p"},
+     "width_and_height": "1152x1536", "quality": "1080p"},
+    {"prompt": "... slide 2 sahnesi ...", "width_and_height": "1152x1536", "quality": "1080p"},
+    {"prompt": "... slide 3 sahnesi ...", "width_and_height": "1152x1536", "quality": "1080p"},
+    {"prompt": "... slide 4 sahnesi ...", "width_and_height": "1152x1536", "quality": "1080p"},
+    {"prompt": "... slide 5 sahnesi ...", "width_and_height": "1152x1536", "quality": "1080p"},
 ]
 open("/tmp/prompts.json","w",encoding="utf-8").write(json.dumps(prompts, ensure_ascii=False))
 print("wrote /tmp/prompts.json")

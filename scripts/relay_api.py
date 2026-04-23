@@ -17,8 +17,8 @@ Kullanım (routine prompt içinden):
 
     # prompts.json örnek:
     # [
-    #   {"prompt": "...", "width_and_height": "1080x1350", "quality": "1080p"},
-    #   {"prompt": "...", "width_and_height": "1080x1350", "quality": "1080p"},
+    #   {"prompt": "...", "width_and_height": "1152x1536", "quality": "1080p"},
+    #   {"prompt": "...", "width_and_height": "1152x1536", "quality": "1080p"},
     #   ...
     # ]
 
@@ -46,6 +46,7 @@ import os
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 
 
@@ -73,7 +74,6 @@ def relay_request(
 
     url = base + path
     if query:
-        import urllib.parse
         url += "?" + urllib.parse.urlencode(query)
 
     data = json.dumps(body).encode("utf-8") if body is not None else None
