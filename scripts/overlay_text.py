@@ -29,8 +29,19 @@ CANVAS_H = 1350
 
 ASSETS_DIR = Path("assets")
 LOGO_PATH = ASSETS_DIR / "logo.png"
-FONT_TITLE = ASSETS_DIR / "fonts" / "BagelFatOne-Regular.ttf"
+FONT_TITLE_PRIMARY = ASSETS_DIR / "fonts" / "BagelFatOne-Regular.ttf"
+FONT_TITLE_FALLBACK = ASSETS_DIR / "fonts" / "Fredoka-Bold.ttf"
+# BagelFatOne lacks glyphs for Turkish-specific chars (ğ, ı, İ, Ğ, ş, Ş).
+# Auto-switch to Fredoka-Bold (chunky rounded, full Turkish support) if the
+# title text needs any of those glyphs.
+FONT_TITLE = FONT_TITLE_PRIMARY
 FONT_BODY = ASSETS_DIR / "fonts" / "Baloo2-Regular.ttf"
+
+_TR_SPECIAL = set("ğıİĞşŞ")
+
+
+def title_font_for(text: str) -> "Path":
+    return FONT_TITLE_FALLBACK if any(c in _TR_SPECIAL for c in (text or "")) else FONT_TITLE
 
 # === YARDIMCI FONKSİYONLAR ===
 
@@ -136,7 +147,7 @@ def render_cover(raw_path, out_path, slide_data, palette):
     subtitle = slide_data.get("subtitle", "")
 
     # Başlık — ana kısım
-    title_font = load_font(FONT_TITLE, 120)
+    title_font = load_font(title_font_for(title_main), 120)
     max_w = CANVAS_W - 120
     main_lines = wrap_text(title_main, title_font, max_w, draw)
 
@@ -145,7 +156,7 @@ def render_cover(raw_path, out_path, slide_data, palette):
 
     # Aksan kelime (farklı renkte, biraz daha büyük)
     if title_accent:
-        accent_font = load_font(FONT_TITLE, 140)
+        accent_font = load_font(title_font_for(title_accent), 140)
         accent_lines = wrap_text(title_accent, accent_font, max_w, draw)
         cur_y = draw_multiline_center(draw, accent_lines, accent_font, palette["accent"], cur_y + 10, 1.0)
 
@@ -199,7 +210,7 @@ def render_tip(raw_path, out_path, slide_data, palette):
     body = slide_data.get("body", "")
 
     # Başlık
-    title_font = load_font(FONT_TITLE, 80)
+    title_font = load_font(title_font_for(title), 80)
     tlines = wrap_text(title, title_font, CANVAS_W - 120, draw)
     cur_y = draw_multiline_center(draw, tlines, title_font, palette["accent"], 110, 1.05)
 
@@ -221,7 +232,7 @@ def render_concept(raw_path, out_path, slide_data, palette):
     title = slide_data.get("title_accent", "")
     body = slide_data.get("body", "")
 
-    title_font = load_font(FONT_TITLE, 110)
+    title_font = load_font(title_font_for(title), 110)
     tlines = wrap_text(title, title_font, CANVAS_W - 120, draw)
     cur_y = draw_multiline_center(draw, tlines, title_font, palette["text"], 120, 1.05)
 

@@ -46,6 +46,7 @@ import os
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 
 
@@ -73,7 +74,6 @@ def relay_request(
 
     url = base + path
     if query:
-        import urllib.parse
         url += "?" + urllib.parse.urlencode(query)
 
     data = json.dumps(body).encode("utf-8") if body is not None else None
