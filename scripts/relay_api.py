@@ -138,17 +138,37 @@ def cmd_submit_batch(args: argparse.Namespace) -> int:
                 log(f"  slide-{s.get('idx')} submit FAILED: {s.get('error')} deny={s.get('deny_reason')}")
         return 3
 
+    # Collect HF request ids by idx (1-indexed) so the relay can poll HF
+    # directly during /api/hf/status calls (we don't rely on webhooks).
+    ids_by_idx: dict[str, str] = {}
+    for s in subs:
+        idx = s.get("idx")
+        rid = s.get("request_id")
+        if idx and rid:
+            ids_by_idx[str(idx)] = rid
+    log(f"HF request_ids: {ids_by_idx}")
+
     # Poll until status.done or timeout.
     interval = int(os.environ.get("RELAY_POLL_INTERVAL_S", "10"))
     max_wait = int(os.environ.get("RELAY_MAX_WAIT_S", "900"))
     deadline = time.time() + max_wait
     count = len(normalized)
 
+    # Compact "id1,id2,id3" form, 1-indexed order.
+    request_ids_csv = ",".join(
+        ids_by_idx.get(str(i + 1), "") for i in range(count)
+    )
+
     while time.time() < deadline:
         s_code, s_resp = relay_request(
             "GET",
             "/api/hf/status",
-            query={"slot": args.slot, "branch": args.branch, "count": str(count)},
+            query={
+                "slot": args.slot,
+                "branch": args.branch,
+                "count": str(count),
+                "request_ids": request_ids_csv,
+            },
         )
         if s_code >= 400:
             log(f"status poll HTTP {s_code}: {json.dumps(s_resp)[:400]}")
@@ -158,7 +178,11 @@ def cmd_submit_batch(args: argparse.Namespace) -> int:
         found = len(s_resp.get("found") or [])
         missing = len(s_resp.get("missing") or [])
         errors = s_resp.get("errors") or []
-        log(f"poll: {found}/{count} hazır, {missing} bekleniyor, errors={len(errors)}")
+        hf_states = s_resp.get("hf_states") or {}
+        states_summary = ", ".join(
+            f"{k}={(v or {}).get('status') or '?'}" for k, v in sorted(hf_states.items())
+        )
+        log(f"poll: {found}/{count} hazır, {missing} bekleniyor, errors={len(errors)} [{states_summary}]")
 
         if errors:
             # Any webhook-side permanent failure -> abort, surface to routine.
