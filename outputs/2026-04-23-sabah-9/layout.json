@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-04-23-sabah-9",
+  "palette": {
+    "bg": "#C9DDEC",
+    "accent": "#E97E28",
+    "text": "#4A2E1A"
+  },
+  "slides": [
+    {
+      "raw_image": "outputs/2026-04-23-sabah-9/raw/slide-1-raw.png",
+      "output": "outputs/2026-04-23-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Anne, Uykum",
+      "title_accent": "Gelmiyor!",
+      "subtitle": "Uyku direnci, güven ihtiyacının sessiz sesidir.",
+      "decorations": true
+    },
+    {
+      "raw_image": "outputs/2026-04-23-sabah-9/raw/slide-2-raw.png",
+      "output": "outputs/2026-04-23-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Pijaması giyili, dişi fırçalı. Ama gözleri bambaşka bir yerde. 'Bir dakika daha'nın sonu gelmiyor. Tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "outputs/2026-04-23-sabah-9/raw/slide-3-raw.png",
+      "output": "outputs/2026-04-23-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Gözlerim kapanınca seni kaybedecek gibi hissediyorum."
+    },
+    {
+      "raw_image": "outputs/2026-04-23-sabah-9/raw/slide-4-raw.png",
+      "output": "outputs/2026-04-23-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Uyku direnci inatlaşma değil, güvensizlik sinyalidir. Tutarlı ritüeller sakinleşmeyi öğretir. Bugün: yatmadan önce 10 dakikalık 'kitap zamanı' deneyin."
+    },
+    {
+      "raw_image": "outputs/2026-04-23-sabah-9/raw/slide-5-raw.png",
+      "output": "outputs/2026-04-23-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Sakin uykular mümkün. Bu yolculukta yanında olacak kitaplar için Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
