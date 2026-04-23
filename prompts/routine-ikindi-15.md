@@ -37,9 +37,9 @@ Ayrıca üret:
 
 > **Neden relay?** Higgsfield'ın Cloudflare WAF'ı Anthropic Routine IP'lerini blokluyor. Relay Vercel üstünde çalışır, Higgsfield'a submit eder, webhook geri dönünce PNG'leri bu branch'e `assets/gorseller/<slot>/slide-<N>.png` olarak commit'ler.
 
-**Gerekli env (Routine secrets'te ayarlı):**
-- `RELAY_URL` → `https://vercel-hf-probe.vercel.app`
-- `RELAY_SHARED_SECRET`
+**Gerekli env (Routine UI'de bu prompt'u paste ederken ADIM 4b'deki `PLACEHOLDER_RELAY_SECRET` ifadesini Vercel'deki gerçek değerle değiştir):**
+- `RELAY_URL` → `https://vercel-hf-probe.vercel.app` (sabit, inline yazılı)
+- `RELAY_SHARED_SECRET` → Vercel → `vercel-hf-probe` → Env → `RELAY_SHARED_SECRET` değerini kopyala, prompt'a yapıştır.
 
 **Prompt iskeleti (her slide için):**
 ```
@@ -75,7 +75,11 @@ PY
 
 **Adım 4b — Submit + poll:**
 
+> Routine UI'ye paste ederken `PLACEHOLDER_RELAY_SECRET` ifadesini Vercel'deki gerçek `RELAY_SHARED_SECRET` değeriyle değiştir.
+
 ```bash
+RELAY_URL="https://vercel-hf-probe.vercel.app" \
+RELAY_SHARED_SECRET="PLACEHOLDER_RELAY_SECRET" \
 python3 scripts/relay_api.py submit-batch \
     --slot "$SLOT" --branch "$BRANCH" --prompts-file /tmp/prompts.json
 ```

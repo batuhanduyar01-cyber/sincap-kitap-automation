@@ -46,9 +46,9 @@ Konuya uygun TEK palette seç, 5 slide boyunca sabit kullan:
 
 > **Neden relay?** Higgsfield'ın Cloudflare WAF'ı Anthropic Routine IP'lerini blokluyor (403 host_not_allowed). Onun için Routine, Vercel'deki bir aracıya çağrı atar. Aracı, Higgsfield'a submit eder ve üretilen PNG'leri doğrudan bu repo'nun aktif branch'ine `assets/gorseller/<slot>/slide-<N>.png` yoluna commit'ler.
 
-**Gerekli env (Routine secrets'te ayarlı olmalı — prompt içinde hardcode ETME):**
-- `RELAY_URL` → örn. `https://vercel-hf-probe.vercel.app`
-- `RELAY_SHARED_SECRET`
+**Gerekli env (Routine UI'de bu prompt'u paste ederken ADIM 4b'deki `PLACEHOLDER_RELAY_SECRET` ifadesini Vercel'deki gerçek değerle değiştir — aynı değer 3 Routine için ortak):**
+- `RELAY_URL` → `https://vercel-hf-probe.vercel.app` (sabit, inline yazılı)
+- `RELAY_SHARED_SECRET` → Vercel dashboard → Project `vercel-hf-probe` → Settings → Environment Variables → `RELAY_SHARED_SECRET` satırındaki değeri kopyala, Routine prompt'una yapıştır.
 
 **Prompt iskeleti (her slide için, TEK STRING halinde):**
 ```
@@ -90,7 +90,11 @@ PY
 
 **Adım 4b — Relay'e submit et ve görsellerin GitHub'a commit'lenmesini bekle:**
 
+> Bu prompt'u Routine UI'ye paste ederken `PLACEHOLDER_RELAY_SECRET` ifadesini Vercel'deki gerçek `RELAY_SHARED_SECRET` değeriyle değiştir.
+
 ```bash
+RELAY_URL="https://vercel-hf-probe.vercel.app" \
+RELAY_SHARED_SECRET="PLACEHOLDER_RELAY_SECRET" \
 python3 scripts/relay_api.py submit-batch \
     --slot    "$SLOT" \
     --branch  "$BRANCH" \
