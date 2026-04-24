@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-04-24-sabah-9",
+  "palette": {
+    "bg": "#E63B5C",
+    "accent": "#C5E86C",
+    "text": "#FFFFFF"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-04-24-sabah-9/slide-1.png",
+      "output": "outputs/2026-04-24-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Yerde Yatan",
+      "title_accent": "O Minik Dev",
+      "subtitle": "Öfke nöbeti, kaybolan kontrolün sesidir.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-04-24-sabah-9/slide-2.png",
+      "output": "outputs/2026-04-24-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Markette sıra bekliyorsunuz. Birden yere uzanıp çığlığa başlıyor. Herkes size bakıyor. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-04-24-sabah-9/slide-3.png",
+      "output": "outputs/2026-04-24-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "İçimde büyük bir fırtına var, durduramıyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-04-24-sabah-9/slide-4.png",
+      "output": "outputs/2026-04-24-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Öfke, kötü bir çocuk işareti değil; gelişmekte olan bir beyin, büyük duyguları taşımayı yeni öğreniyor. Bugün: Yere çöküp 'Seninle birlikte nefes alalım mı?' deyin."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-04-24-sabah-9/slide-5.png",
+      "output": "outputs/2026-04-24-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Bu fırtınalı günlerde sana eşlik edecek kitaplar için Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
