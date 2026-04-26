@@ -31,15 +31,51 @@ ASSETS_DIR = Path("assets")
 LOGO_PATH = ASSETS_DIR / "logo.png"
 FONT_TITLE = ASSETS_DIR / "fonts" / "BagelFatOne-Regular.ttf"
 FONT_BODY = ASSETS_DIR / "fonts" / "Baloo2-Regular.ttf"
+# Türkçe diakritikleri (İ, ş, ğ, ı) içermeyen başlık fontları için fallback.
+# Baloo 2 (variable) ağırlık ekseni 400-800; başlıklarda ExtraBold (800) kullanırız.
+FONT_TITLE_FALLBACK = ASSETS_DIR / "fonts" / "Baloo2-Regular.ttf"
 
 # === YARDIMCI FONKSİYONLAR ===
 
-def load_font(path, size):
-    """Font yükle, yoksa default kullan."""
+def _font_supports_turkish(path) -> bool:
+    """Bagel Fat One gibi fontlarda İ, ş, ğ, ı yok; bunları doğru render edebilir mi?"""
     try:
-        return ImageFont.truetype(str(path), size)
+        from PIL import Image as _Img, ImageDraw as _Draw
+        f = ImageFont.truetype(str(path), 40)
+        img = _Img.new("L", (200, 80), 0)
+        d = _Draw.Draw(img)
+        d.text((5, 5), "İŞĞı", font=f, fill=255)
+        # Eğer "no glyph" tofu çıktıysa, görüntü ortalama parlaklığı normal harflere göre
+        # belirgin biçimde farklıdır; daha güvenilir olarak tablo kontrolü:
+        from fontTools.ttLib import TTFont
+        tt = TTFont(str(path))
+        cmap = tt.getBestCmap()
+        return all(ord(c) in cmap for c in "İŞĞı")
+    except Exception:
+        return True  # emin değilsek devam et
+
+
+def load_font(path, size, *, weight: int | None = None):
+    """Font yükle. weight verilirse variable font ekseni o değere çekilir.
+    Eğer 'path' Türkçe karakterleri taşımıyorsa otomatik olarak FONT_TITLE_FALLBACK'a düşer."""
+    target = path
+    fallback_used = False
+    if not _font_supports_turkish(target):
+        print(f"[WARN] {Path(target).name} Türkçe glifleri eksik, fallback: {FONT_TITLE_FALLBACK.name}")
+        target = FONT_TITLE_FALLBACK
+        fallback_used = True
+    try:
+        f = ImageFont.truetype(str(target), size)
+        # Başlık fontu Baloo 2'ye düştüyse ExtraBold (800) ağırlık ekseni
+        eff_weight = weight if weight is not None else (800 if fallback_used else None)
+        if eff_weight is not None:
+            try:
+                f.set_variation_by_axes([eff_weight])
+            except Exception:
+                pass
+        return f
     except Exception as e:
-        print(f"[WARN] Font yüklenemedi ({path}): {e}. Default kullanılıyor.")
+        print(f"[WARN] Font yüklenemedi ({target}): {e}. Default kullanılıyor.")
         return ImageFont.load_default()
 
 
