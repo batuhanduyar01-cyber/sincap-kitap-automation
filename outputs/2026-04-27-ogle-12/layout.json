@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-04-27-ogle-12",
+  "palette": {
+    "bg": "#C9DDEC",
+    "accent": "#7E5BA0",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-04-27-ogle-12/slide-1.png",
+      "output": "outputs/2026-04-27-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Dişlerimi Fırçalamak",
+      "title_accent": "Hiç İstemiyorum!",
+      "subtitle": "Ama belki bir oyun olsa…",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-04-27-ogle-12/slide-2.png",
+      "output": "outputs/2026-04-27-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Annem fırçayı tutarken elime, kahkaha atıyoruz birlikte!"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-04-27-ogle-12/slide-3.png",
+      "output": "outputs/2026-04-27-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Ama köpük gözüme kaçınca, biraz korkuyorum aslında."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-04-27-ogle-12/slide-4.png",
+      "output": "outputs/2026-04-27-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Diş fırçalama saati savaş alanı olmasın. Şarkı söyleyin, aynaya komik suratlar yapın. Çocuğunuzun kendi fırçasını seçmesine izin verin — sahiplik direnci yumuşatır."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-04-27-ogle-12/slide-5.png",
+      "output": "outputs/2026-04-27-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Yarın yine birlikte fırçalayacağız! Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
