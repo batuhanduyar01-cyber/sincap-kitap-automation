@@ -1,0 +1,45 @@
+{
+  "output_dir": "outputs/2026-04-28-ikindi-15",
+  "palette": {
+    "bg": "#F08A7B",
+    "accent": "#FFF5E6",
+    "text": "#3B2413"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-04-28-ikindi-15/slide-1.png",
+      "output": "outputs/2026-04-28-ikindi-15/slide-1.png",
+      "type": "cover",
+      "title_main": "Çocuklar Duygularını",
+      "title_accent": "Nasıl Tanır?",
+      "subtitle": "İçindeki fırtınayı kelimelere döken küçük yollar.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-04-28-ikindi-15/slide-2.png",
+      "output": "outputs/2026-04-28-ikindi-15/slide-2.png",
+      "type": "inner",
+      "body": "Çocuğunuz bazen ağlar, bazen tepiniyor; aslında içinde adı henüz konulmamış fırtınalar var. Duyguya isim koymak, o fırtınayı dindirmenin ilk adımıdır."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-04-28-ikindi-15/slide-3.png",
+      "output": "outputs/2026-04-28-ikindi-15/slide-3.png",
+      "type": "concept",
+      "title_accent": "İsim",
+      "body": "Bir duygu adlandırıldığında çocuk yalnız hissetmez. 'Üzgünüm' demek artık tehlikeli değil; gücüne dönüşür."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-04-28-ikindi-15/slide-4.png",
+      "output": "outputs/2026-04-28-ikindi-15/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Çocuğunuz öfkelendiğinde önce duygusunu söyleyin: 'Şu an çok kızgınsın, anlıyorum.' Yargılamadan önce isim verin. Bu akşam deneyin: Yatmadan önce 'Bugün üç duygu hissettim' oyunu oynayın; her birinize sıra gelsin."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-04-28-ikindi-15/slide-5.png",
+      "output": "outputs/2026-04-28-ikindi-15/slide-5.png",
+      "type": "cta",
+      "body": "Bu konuyu çocuğunuzla birlikte keşfetmek için Sincap Kitap'ı takip edin 🐿️"
+    }
+  ]
+}
