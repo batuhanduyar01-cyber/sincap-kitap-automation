@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-04-29-sabah-9",
+  "palette": {
+    "bg": "#C9DDEC",
+    "accent": "#E97E28",
+    "text": "#4A2E1F"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-04-29-sabah-9/slide-1.png",
+      "output": "outputs/2026-04-29-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Anne, Bu Gece",
+      "title_accent": "Uyumayacağım!",
+      "subtitle": "Uyku direnci aslında bağ kurma çağrısıdır.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-04-29-sabah-9/slide-2.png",
+      "output": "outputs/2026-04-29-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Yatak hazır, ışık kısık, sen 'iyi geceler' diyorsun. Ama o yastığını ittirip 'bir hikâye daha' diyor. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-04-29-sabah-9/slide-3.png",
+      "output": "outputs/2026-04-29-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Gözlerimi kapatınca seninle olan günümüz bitiyor. Biraz daha kalmak istiyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-04-29-sabah-9/slide-4.png",
+      "output": "outputs/2026-04-29-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Uyku direnci inatçılık değil, sizden ayrılma korkusudur. Kısa ve tahmin edilebilir bir ritüel güveni besler. Bugün: aynı sırayla 'banyo–kitap–öpücük' deneyebilirsiniz."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-04-29-sabah-9/slide-5.png",
+      "output": "outputs/2026-04-29-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Uykuya geçişi yumuşatan kitaplar için Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
