@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-01-ogle-12",
+  "palette": {
+    "bg": "#7E5BA0",
+    "accent": "#C5E86C",
+    "text": "#FFFFFF"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-01-ogle-12/slide-1.png",
+      "output": "outputs/2026-05-01-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Daha",
+      "title_accent": "Uykum Yok!",
+      "subtitle": "Küçük bir sincabın geceyle imtihanı.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-01-ogle-12/slide-2.png",
+      "output": "outputs/2026-05-01-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Seninle bir öykü daha okusak olur mu? Sesini dinlemek bana huzur veriyor."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-01-ogle-12/slide-3.png",
+      "output": "outputs/2026-05-01-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Gözlerim yumulmuyor çünkü bu kocaman dünyayı doyasıya keşfetmek istiyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-01-ogle-12/slide-4.png",
+      "output": "outputs/2026-05-01-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Çocuğunuz uykuya direnmiyor; yalnızca güne veda etmekte zorlanıyor. Aynı saat, aynı ritüel ve aynı sıcak ses güveni büyütür. İpucu: Yatmadan önce 10 dakikalık 'sessiz oda' başlatın."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-01-ogle-12/slide-5.png",
+      "output": "outputs/2026-05-01-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "İyi geceler! Yarın yine en güzel maceralarla buluşmak üzere. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
