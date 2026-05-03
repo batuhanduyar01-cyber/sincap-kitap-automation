@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-03-ogle-12",
+  "palette": {
+    "bg": "#F5C82E",
+    "accent": "#8E4FAA",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-03-ogle-12/slide-1.png",
+      "output": "outputs/2026-05-03-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Yemek Yemek mi?",
+      "title_accent": "Hadi Bakalım!",
+      "subtitle": "Tabağımda yeni tatlar var, hep birlikte keşfedelim.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-03-ogle-12/slide-2.png",
+      "output": "outputs/2026-05-03-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Annemin pişirdiği çorbayı koklamak, dünyanın en güzel kokusu."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-03-ogle-12/slide-3.png",
+      "output": "outputs/2026-05-03-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Tabağımdaki yeşillikler kocaman görünüyor, önce koklayıp sonra ufacık ısırmak istiyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-03-ogle-12/slide-4.png",
+      "output": "outputs/2026-05-03-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Çocuklar yeni tatlara alışmak için zamana ihtiyaç duyar. Tabakta bir yeni, iki sevdiği yemek olsun; birlikte hazırlayın."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-03-ogle-12/slide-5.png",
+      "output": "outputs/2026-05-03-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Karnım doydu, kalbim de! Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
