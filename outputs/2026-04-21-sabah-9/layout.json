@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-04-21-sabah-9",
+  "palette": {
+    "bg": "#7E5BA0",
+    "accent": "#C5E86C",
+    "text": "#FFFFFF"
+  },
+  "slides": [
+    {
+      "raw_image": "outputs/2026-04-21-sabah-9/raw/slide-1-raw.png",
+      "output": "outputs/2026-04-21-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Anne, Bir Kitap",
+      "title_accent": "Daha?",
+      "subtitle": "Uyku direnci, bağ kurma çağrısıdır.",
+      "decorations": true
+    },
+    {
+      "raw_image": "outputs/2026-04-21-sabah-9/raw/slide-2-raw.png",
+      "output": "outputs/2026-04-21-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Işığı söndürür söndürmez başlar: 'Anne, susadım. Anne, pipim var.' Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "outputs/2026-04-21-sabah-9/raw/slide-3-raw.png",
+      "output": "outputs/2026-04-21-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Yorgun değilim, sadece seninle biraz daha kalmak istiyorum."
+    },
+    {
+      "raw_image": "outputs/2026-04-21-sabah-9/raw/slide-4-raw.png",
+      "output": "outputs/2026-04-21-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Uyku direnci çoğu zaman yorgunluk değil, ayrılmakta zorlanmak demektir. Kısa ve sakin bir rutin güveni kurar. Bugün: yatmadan önce 10 dakika sadece ikiniz bir kitap okuyun."
+    },
+    {
+      "raw_image": "outputs/2026-04-21-sabah-9/raw/slide-5-raw.png",
+      "output": "outputs/2026-04-21-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Uykusuz geçen bu anlar, yıllar sonra en değerli anılar olacak. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
