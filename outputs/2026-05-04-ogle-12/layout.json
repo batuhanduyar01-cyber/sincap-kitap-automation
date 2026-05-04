@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-04-ogle-12",
+  "palette": {
+    "bg": "#E97E28",
+    "accent": "#7E5BA0",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-04-ogle-12/slide-1.png",
+      "output": "outputs/2026-05-04-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Yemekle",
+      "title_accent": "Arkadaş Olalım mı?",
+      "subtitle": "Tabakta küçük bir macera başlıyor.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-04-ogle-12/slide-2.png",
+      "output": "outputs/2026-05-04-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Seninle masada gülerken karnım hep doyuyor."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-04-ogle-12/slide-3.png",
+      "output": "outputs/2026-05-04-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Yeni tatlardan biraz korkuyorum, sabırla yanımda kal."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-04-ogle-12/slide-4.png",
+      "output": "outputs/2026-05-04-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Çocuklar yeni bir tadı sevmek için ortalama 10 deneyişe ihtiyaç duyar. Sofrayı savaşa çevirmek yerine birlikte renkli tabaklar hazırlayın; yemeği bir oyun gibi tanıtın."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-04-ogle-12/slide-5.png",
+      "output": "outputs/2026-05-04-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Bugün de minik bir lokma denedim — sen yanımda olduğun için. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
