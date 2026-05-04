@@ -1,0 +1,45 @@
+{
+  "output_dir": "outputs/2026-05-04-sabah-9",
+  "palette": {
+    "name": "TOZ MAVİSİ",
+    "bg": "#C9DDEC",
+    "accent": "#E97E28",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-04-sabah-9/slide-1.png",
+      "output": "outputs/2026-05-04-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Uyumak Bu Kadar",
+      "title_accent": "Zor mu?",
+      "subtitle": "Uyku direnci, korkuyla değil sevgiyle çözülür.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-04-sabah-9/slide-2.png",
+      "output": "outputs/2026-05-04-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Saat 22:00. Üçüncü kez yataktan kalkıyor. 'Susadım, bir öpücük daha, bir öykü daha…' Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-04-sabah-9/slide-3.png",
+      "output": "outputs/2026-05-04-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Karanlıkta gözlerimi kapatınca, sen yokmuşsun gibi geliyor."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-04-sabah-9/slide-4.png",
+      "output": "outputs/2026-05-04-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Uyku direnci, ayrılma anının zorluğudur. Sabit bir rutin güven verir. Bugün: yatmadan önce 10 dakika yan yana sessizce uzanın; konuşmasanız bile 'birlikteyim' hissi yeter."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-04-sabah-9/slide-5.png",
+      "output": "outputs/2026-05-04-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Uyku, sevgiyle ekilen bir tohum; sabırla büyür. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
