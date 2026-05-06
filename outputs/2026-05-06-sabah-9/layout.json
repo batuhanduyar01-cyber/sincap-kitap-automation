@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-06-sabah-9",
+  "palette": {
+    "bg": "#C9DDEC",
+    "accent": "#E97E28",
+    "text": "#3E2A1F"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-06-sabah-9/slide-1.png",
+      "output": "outputs/2026-05-06-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Bir Türlü",
+      "title_accent": "Uyumuyor mu?",
+      "subtitle": "Direnç değil, dünyaya doyamamak gibi.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-06-sabah-9/slide-2.png",
+      "output": "outputs/2026-05-06-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Saat 22:00 olmuş, sen yorgunsun, ama o hâlâ zıplıyor. 'Bir kitap daha,' diyor küçük el. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-06-sabah-9/slide-3.png",
+      "output": "outputs/2026-05-06-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Gözlerimi kapatınca, gün hâlâ bitmemiş gibi geliyor."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-06-sabah-9/slide-4.png",
+      "output": "outputs/2026-05-06-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Uykuya direnç, gelişimin doğal bir aşamasıdır. Tutarlı ritüeller küçük bir bedeni güvene davet eder. Bugün: Yatmadan 30 dakika önce ışıkları kıs, sıcak bir hikâye aç."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-06-sabah-9/slide-5.png",
+      "output": "outputs/2026-05-06-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Her uyku, sevgiyle örülen bir kucaktır. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
