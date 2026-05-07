@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-07-sabah-9",
+  "palette": {
+    "bg": "#C9DDEC",
+    "accent": "#E97E28",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-07-sabah-9/slide-1.png",
+      "output": "outputs/2026-05-07-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Anne, Daha",
+      "title_accent": "Uyumam!",
+      "subtitle": "Uyku direnci, güvenli yakınlığın işaretidir.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-07-sabah-9/slide-2.png",
+      "output": "outputs/2026-05-07-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Pijamalar giyildi, masal okundu, ışıklar kısıldı. Ama o gözler kapanmıyor, küçük eller sizi bırakmıyor. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-07-sabah-9/slide-3.png",
+      "output": "outputs/2026-05-07-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Karanlıkta sen yanımdayken dünya daha güvenli."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-07-sabah-9/slide-4.png",
+      "output": "outputs/2026-05-07-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Uyku direnci yorgunluk değil, ayrılığa hazırlıktır. Aynı sıra ile ilerleyen kısa bir gece ritüeli güveni kurar. Bugün: Yatmadan önce 5 dakika sessizce sarılın, sonra ışığı yavaşça kısın."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-07-sabah-9/slide-5.png",
+      "output": "outputs/2026-05-07-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Yorgun olduğunu bil, çünkü görünmeyen şeylerle uğraşıyorsun. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
