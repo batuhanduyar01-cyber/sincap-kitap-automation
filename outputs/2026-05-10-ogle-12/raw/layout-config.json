@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-10-ogle-12",
+  "palette": {
+    "bg": "#E97E28",
+    "accent": "#5B3A7A",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-10-ogle-12/slide-1.png",
+      "output": "outputs/2026-05-10-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Dişlerimi Niye",
+      "title_accent": "Fırçalamalıyım?",
+      "subtitle": "Minik bir tilkinin köpüklü diş macerası.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-10-ogle-12/slide-2.png",
+      "output": "outputs/2026-05-10-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Köpük köpük macunum elimde, anneme gülümseyince ışıl ışıl oluyor!"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-10-ogle-12/slide-3.png",
+      "output": "outputs/2026-05-10-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Bazen yorgunum, küçücüğüm ben. Sen elimden tut, birlikte fırçalayalım."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-10-ogle-12/slide-4.png",
+      "output": "outputs/2026-05-10-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Çocuklar fırça inadında bağımsızlık ararlar. 'Sen mi, ben mi?' oyunu kurun: önce siz, sonra o. Sıra ona gelince mücadele biter, kahkaha başlar."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-10-ogle-12/slide-5.png",
+      "output": "outputs/2026-05-10-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Hadi yarın yine fırçalarız! Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
