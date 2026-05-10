@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-10-sabah-9",
+  "palette": {
+    "bg": "#E63B5C",
+    "accent": "#C5E86C",
+    "text": "#FFFFFF"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-10-sabah-9/slide-1.png",
+      "output": "outputs/2026-05-10-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Yere Yattı, Çığlık",
+      "title_accent": "Atıyor!",
+      "subtitle": "Öfke nöbetleri büyümenin doğal bir parçasıdır.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-10-sabah-9/slide-2.png",
+      "output": "outputs/2026-05-10-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Markette, sokakta, evde... Bir anda yere yatıyor, etraf donup kalıyor. İçinden 'şimdi de bu mu?' geçiyor. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-10-sabah-9/slide-3.png",
+      "output": "outputs/2026-05-10-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "İçimde büyük bir fırtına var. Onu durduramıyorum, anne."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-10-sabah-9/slide-4.png",
+      "output": "outputs/2026-05-10-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Öfke nöbeti, henüz yönetilemeyen bir duygu fırtınasıdır. Diz çöküp seviyesine inin, sessizce yanında durun. Bugün: 'Buradayım, geçince konuşuruz' deyin."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-10-sabah-9/slide-5.png",
+      "output": "outputs/2026-05-10-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Bu küçük fırtınalar geçecek, sevgin sabit kalacak. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
