@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-12-ogle-12",
+  "palette": {
+    "bg": "#F5C82E",
+    "accent": "#8E4FAA",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-12-ogle-12/slide-1.png",
+      "output": "outputs/2026-05-12-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Fırçayı Görünce",
+      "title_accent": "Saklanıyorum!",
+      "subtitle": "Köpük, fısıltı, biraz da kahkaha...",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-12-ogle-12/slide-2.png",
+      "output": "outputs/2026-05-12-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Sen yanımdayken fırçam bile yumuşacık oluyor."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-12-ogle-12/slide-3.png",
+      "output": "outputs/2026-05-12-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Köpüğün tadı tuhaf; biraz şarkı söylesek olmaz mı?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-12-ogle-12/slide-4.png",
+      "output": "outputs/2026-05-12-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Fırçalama bir savaş değil, küçük bir ritüel. Aynı saat, aynı şarkı. Bugün önce kendi dişinizi çocuğunuza fırçalatın — taklit, sözden güçlüdür."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-12-ogle-12/slide-5.png",
+      "output": "outputs/2026-05-12-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Yarın yine birlikte fırçalayalım! Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
