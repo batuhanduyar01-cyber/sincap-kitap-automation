@@ -2,3 +2,4 @@
 
 Son 14 günün konuları (tekrar kontrolü için). Format: `- YYYY-MM-DD: konu`
 
+- 2026-05-13: uyku direnci
