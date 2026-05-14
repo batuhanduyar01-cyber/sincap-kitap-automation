@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-14-sabah-9",
+  "palette": {
+    "bg": "#C9DDEC",
+    "accent": "#E97E28",
+    "text": "#4A2C1B"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-14-sabah-9/slide-1.png",
+      "output": "outputs/2026-05-14-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Anne, Bir Dakika",
+      "title_accent": "Daha!",
+      "subtitle": "Uyku direnci, dünyaya tutkunluğun sesidir.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-14-sabah-9/slide-2.png",
+      "output": "outputs/2026-05-14-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Pijaması giyildi, dişler fırçalandı, kitap okundu... Ama gözler hâlâ pırıl pırıl. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-14-sabah-9/slide-3.png",
+      "output": "outputs/2026-05-14-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Gözlerimi kapatınca güzel günü kaçıracakmışım gibi geliyor."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-14-sabah-9/slide-4.png",
+      "output": "outputs/2026-05-14-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Uyku direnci inat değil, gelişim sinyalidir. Sabit bir rutin ve yumuşak bir geçiş, küçük zihne 'şimdi güvendesin' mesajını verir. Bugün: Yatmadan yarım saat önce ışıkları kıs, sesini bir tona düşür."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-14-sabah-9/slide-5.png",
+      "output": "outputs/2026-05-14-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Sakin geceler için sana eşlik edecek hikâyeler burada. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
