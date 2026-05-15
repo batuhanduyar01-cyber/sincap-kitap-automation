@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-15-sabah-9",
+  "palette": {
+    "bg": "#C9DDEC",
+    "accent": "#E97E28",
+    "text": "#3E2723"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-15-sabah-9/slide-1.png",
+      "output": "outputs/2026-05-15-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Anne, Daha",
+      "title_accent": "Uyumak İstemiyorum",
+      "subtitle": "Uyku direnci, ayrılığa karşı bir çağrıdır.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-15-sabah-9/slide-2.png",
+      "output": "outputs/2026-05-15-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Saat geç oldu, gözlerinde uyku var ama 'beş dakika daha' diyor. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-15-sabah-9/slide-3.png",
+      "output": "outputs/2026-05-15-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Karanlık olunca tek başıma kalıyorum, hâlâ seninle olmak istiyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-15-sabah-9/slide-4.png",
+      "output": "outputs/2026-05-15-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Uyku direnci, günden ayrılma kaygısıdır. Sakin bir rutin, sıcak bir kucak ve birlikte bir kitap, uykuya yumuşak bir köprü kurar. Bu akşam: Yatağa 10 dk önce girip kucağında kitap okumayı deneyin."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-15-sabah-9/slide-5.png",
+      "output": "outputs/2026-05-15-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Yorgun günler geçici, kucağında okuduğun anılar kalıcı. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
