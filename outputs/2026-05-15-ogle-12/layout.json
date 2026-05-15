@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-15-ogle-12",
+  "palette": {
+    "bg": "#F5C82E",
+    "accent": "#8E4FAA",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-15-ogle-12/slide-1.png",
+      "output": "outputs/2026-05-15-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Bırak, Ben",
+      "title_accent": "Yaparım!",
+      "subtitle": "Minik eller, kocaman işler başarmak ister.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-15-ogle-12/slide-2.png",
+      "output": "outputs/2026-05-15-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Sen yanımdayken denemekten hiç korkmuyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-15-ogle-12/slide-3.png",
+      "output": "outputs/2026-05-15-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Yavaş oluyorum, biliyorum ama kendim başarmak istiyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-15-ogle-12/slide-4.png",
+      "output": "outputs/2026-05-15-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Çocuğunuz 'ben yaparım' derken bağımsızlığını inşa ediyor. Acele etmeyin, hatasıyla denemesine izin verin. İpucu: İşlere 10 dakika erken başlayın, denemeye vakit kalsın."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-15-ogle-12/slide-5.png",
+      "output": "outputs/2026-05-15-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Bugün ayakkabımı kendim giydim, görüşürüz! Sincap'ın maceralarının tamamı için Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
