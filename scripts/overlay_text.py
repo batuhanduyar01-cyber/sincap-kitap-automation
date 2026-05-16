@@ -122,6 +122,19 @@ def draw_decorations(draw, palette, count=7, seed=42):
 
 # === SLIDE ÇİZİM FONKSİYONLARI ===
 
+def _draw_block_center(draw, lines, font, color, start_y, gap_below=0):
+    """Bir metin bloğunu ortalanmış çizer; font metriklerine göre satır yüksekliği
+    kullanır (üst üste binmeyi önler) ve bir sonraki blok için y döndürür."""
+    ascent, descent = font.getmetrics()
+    line_h = ascent + descent
+    cur_y = start_y
+    for line in lines:
+        w = draw.textlength(line, font=font)
+        draw.text(((CANVAS_W - w) // 2, cur_y), line, font=font, fill=color)
+        cur_y += line_h
+    return cur_y + gap_below
+
+
 def render_cover(raw_path, out_path, slide_data, palette):
     """Kapak slide'ı — büyük başlık üstte, 2 renk karışık."""
     img = Image.open(raw_path).convert("RGBA").resize((CANVAS_W, CANVAS_H), Image.LANCZOS)
@@ -135,25 +148,24 @@ def render_cover(raw_path, out_path, slide_data, palette):
     title_accent = slide_data.get("title_accent", "")
     subtitle = slide_data.get("subtitle", "")
 
-    # Başlık — ana kısım
-    title_font = load_font(FONT_TITLE, 120)
     max_w = CANVAS_W - 120
-    main_lines = wrap_text(title_main, title_font, max_w, draw)
+    title_font = load_font(FONT_TITLE, 120)
 
-    start_y = 120
-    cur_y = draw_multiline_center(draw, main_lines, title_font, palette["text"], start_y, 1.0)
+    # Başlık — ana kısım
+    main_lines = wrap_text(title_main, title_font, max_w, draw)
+    cur_y = _draw_block_center(draw, main_lines, title_font, palette["text"], 120, gap_below=10)
 
     # Aksan kelime (farklı renkte, biraz daha büyük)
     if title_accent:
         accent_font = load_font(FONT_TITLE, 140)
         accent_lines = wrap_text(title_accent, accent_font, max_w, draw)
-        cur_y = draw_multiline_center(draw, accent_lines, accent_font, palette["accent"], cur_y + 10, 1.0)
+        cur_y = _draw_block_center(draw, accent_lines, accent_font, palette["accent"], cur_y, gap_below=30)
 
     # Alt başlık
     if subtitle:
         sub_font = load_font(FONT_BODY, 40)
         sub_lines = wrap_text(subtitle, sub_font, CANVAS_W - 160, draw)
-        draw_multiline_center(draw, sub_lines, sub_font, palette["text"], cur_y + 30, 1.2)
+        _draw_block_center(draw, sub_lines, sub_font, palette["text"], cur_y)
 
     paste_logo(img)
     img.convert("RGB").save(out_path, "PNG")
