@@ -1,0 +1,41 @@
+{
+  "output_dir": "outputs/2026-05-16-ikindi-15",
+  "palette": {"bg": "#F5C82E", "accent": "#8E4FAA", "text": "#2A1810"},
+  "slides": [
+    {
+      "raw_image": "outputs/2026-05-16-ikindi-15/raw/slide-1-raw.png",
+      "output": "outputs/2026-05-16-ikindi-15/slide-1.png",
+      "type": "cover",
+      "title_main": "Kutudan Çıkan",
+      "title_accent": "Koca Bir Dünya",
+      "subtitle": "Hayal gücü, çocuğun en güçlü öğrenme aracıdır.",
+      "decorations": true
+    },
+    {
+      "raw_image": "outputs/2026-05-16-ikindi-15/raw/slide-2-raw.png",
+      "output": "outputs/2026-05-16-ikindi-15/slide-2.png",
+      "type": "inner",
+      "body": "Bir battaniye çadıra, bir kaşık mikrofona dönüşür. Çocuğunuz oyun oynarken aslında dünyayı anlamaya çalışır. Hayal gücü, bu keşfin en doğal yoludur."
+    },
+    {
+      "raw_image": "outputs/2026-05-16-ikindi-15/raw/slide-3-raw.png",
+      "output": "outputs/2026-05-16-ikindi-15/slide-3.png",
+      "type": "concept",
+      "title_accent": "Hayal",
+      "body": "Gerçek olmayanı zihinde canlandırmak; yaratıcılığın ve problem çözmenin görünmez temelidir."
+    },
+    {
+      "raw_image": "outputs/2026-05-16-ikindi-15/raw/slide-4-raw.png",
+      "output": "outputs/2026-05-16-ikindi-15/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Hayal oyununa karışmayın, eşlik edin. Çocuğunuz en saçma hikâyeyi anlatsa bile ciddiye alın; düzeltmek yerine merak edin. Bu akşam: Bir karton kutu verip 'Bu ne olabilir?' diye sorun."
+    },
+    {
+      "raw_image": "outputs/2026-05-16-ikindi-15/raw/slide-5-raw.png",
+      "output": "outputs/2026-05-16-ikindi-15/slide-5.png",
+      "type": "cta",
+      "body": "Çocuğunuzun hayal dünyasını birlikte keşfetmek için Sincap Kitap'ı takip edin"
+    }
+  ]
+}
