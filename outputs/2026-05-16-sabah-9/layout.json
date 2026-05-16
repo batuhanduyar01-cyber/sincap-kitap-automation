@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-16-sabah-9",
+  "palette": {
+    "bg": "#E63B5C",
+    "accent": "#C5E86C",
+    "text": "#FFFFFF"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-16-sabah-9/slide-1.png",
+      "output": "outputs/2026-05-16-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Öfke Geldi,",
+      "title_accent": "Geçecek",
+      "subtitle": "Öfke nöbetleri, büyümenin gürültülü bir parçasıdır.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-16-sabah-9/slide-2.png",
+      "output": "outputs/2026-05-16-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Markette, herkesin gözü önünde çocuğunuz yere yatıyor. Yüzünüz kızarıyor, ne yapacağınızı bilemiyorsunuz. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-16-sabah-9/slide-3.png",
+      "output": "outputs/2026-05-16-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "İçimde kocaman bir fırtına var, onu nasıl durduracağımı bilmiyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-16-sabah-9/slide-4.png",
+      "output": "outputs/2026-05-16-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Öfke nöbeti bir terbiyesizlik değil, gelişen bir beynin taşkınlığıdır. Siz sakin kaldıkça çocuğunuz güvende hisseder. Bugün: önce kucağınızı açın, konuşmayı fırtına dindikten sonraya bırakın."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-16-sabah-9/slide-5.png",
+      "output": "outputs/2026-05-16-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Her fırtınadan sonra mutlaka sakin bir liman gelir; o liman sizsiniz. Duyguları birlikte tanımanıza eşlik edecek kitaplar için Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}

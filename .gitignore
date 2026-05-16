@@ -29,4 +29,5 @@ Thumbs.db
 # Geçici dosyalar
 *.tmp
 *.log
-layout.json
+# ADIM 5'in repo köküne yazdığı geçici config; outputs/ içindeki kopya commit'lenir
+/layout.json
