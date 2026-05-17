@@ -1,0 +1,45 @@
+{
+  "output_dir": "outputs/2026-05-17-ikindi-15",
+  "palette": {
+    "bg": "#F5C82E",
+    "accent": "#8E4FAA",
+    "text": "#2A1810"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-17-ikindi-15/slide-1.png",
+      "output": "outputs/2026-05-17-ikindi-15/slide-1.png",
+      "type": "cover",
+      "title_main": "Bitmeyen Soruların",
+      "title_accent": "Sırrı",
+      "subtitle": "Çocuğunuzun her 'neden?'i merakın işaretidir.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-17-ikindi-15/slide-2.png",
+      "output": "outputs/2026-05-17-ikindi-15/slide-2.png",
+      "type": "inner",
+      "body": "Çocuğunuz gün boyu 'neden?' diye soruyor ve siz bazen yorgun düşüyorsunuz. Aslında bu sorular, dünyayı anlamaya çalışan zihninin sesidir. Her soru, büyüyen bir merakın küçük kıvılcımıdır."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-17-ikindi-15/slide-3.png",
+      "output": "outputs/2026-05-17-ikindi-15/slide-3.png",
+      "type": "concept",
+      "title_accent": "Merak",
+      "body": "Merak, çocuğun öğrenme isteğini canlı tutan içsel bir kıvılcımdır. Beslendikçe büyür, susturuldukça söner."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-17-ikindi-15/slide-4.png",
+      "output": "outputs/2026-05-17-ikindi-15/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Her soruya hemen cevap vermek zorunda değilsiniz. Bazen 'Sen ne düşünüyorsun?' demek merakı daha da büyütür. Bu akşam: Çocuğunuz bir 'neden?' sorduğunda birlikte tahmin oyunu oynayın."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-17-ikindi-15/slide-5.png",
+      "output": "outputs/2026-05-17-ikindi-15/slide-5.png",
+      "type": "cta",
+      "body": "Bu konuyu çocuğunuzla birlikte keşfetmek için Sincap Kitap'ı takip edin"
+    }
+  ]
+}
