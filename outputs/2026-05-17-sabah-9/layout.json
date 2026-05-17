@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-17-sabah-9",
+  "palette": {
+    "bg": "#7E5BA0",
+    "accent": "#C5E86C",
+    "text": "#FFFFFF"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-17-sabah-9/slide-1.png",
+      "output": "outputs/2026-05-17-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Anne, Karanlık",
+      "title_accent": "Beni Korkutuyor",
+      "subtitle": "Bu korku, hayal gücünün büyüdüğünün işareti.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-17-sabah-9/slide-2.png",
+      "output": "outputs/2026-05-17-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Yatma vakti gelince minik eller yorganı sıkıca tutuyor; 'ışık açık kalsın' diye yalvaran o gözler... Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-17-sabah-9/slide-3.png",
+      "output": "outputs/2026-05-17-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Gözlerimi kapatınca odam kocaman ve sessiz oluyor; yanımda olduğunu bilmek beni rahatlatıyor."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-17-sabah-9/slide-4.png",
+      "output": "outputs/2026-05-17-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Karanlık korkusu gelişimin doğal bir parçası; küçümsemeden, sakin varlığınızla güven verebilirsiniz. Bugün: yatmadan önce odayı birlikte gezip her köşeye 'iyi geceler' diyebilirsiniz."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-17-sabah-9/slide-5.png",
+      "output": "outputs/2026-05-17-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Her gece biraz daha cesaret büyüyor; siz yanındayken karanlık o kadar da büyük değil. Bu yolculukta sana eşlik edecek kitaplar için Sincap Kitap'ı takip et."
+    }
+  ]
+}
