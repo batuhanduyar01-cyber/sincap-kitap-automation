@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-17-ogle-12",
+  "palette": {
+    "bg": "#F5C82E",
+    "accent": "#8E4FAA",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "outputs/2026-05-17-ogle-12/raw/slide-1.png",
+      "output": "outputs/2026-05-17-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Fırça Geliyor,",
+      "title_accent": "Ben Kaçıyorum!",
+      "subtitle": "Ama köpükler beni gıdıklayınca bayılıyorum.",
+      "decorations": true
+    },
+    {
+      "raw_image": "outputs/2026-05-17-ogle-12/raw/slide-2.png",
+      "output": "outputs/2026-05-17-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Diş fırçam minik bir sihirli değnek; ağzımda köpükten yıldızlar parlatıyor."
+    },
+    {
+      "raw_image": "outputs/2026-05-17-ogle-12/raw/slide-3.png",
+      "output": "outputs/2026-05-17-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Bazen fırça bana garip geliyor, kaçmak istiyorum. Elimi tutup şarkı söylersen korkum köpük gibi uçup gidiyor."
+    },
+    {
+      "raw_image": "outputs/2026-05-17-ogle-12/raw/slide-4.png",
+      "output": "outputs/2026-05-17-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Diş fırçalamak bir görev değil, paylaşılan bir oyun olabilir. Direnç çoğu zaman korkudan değil, kontrol isteğinden doğar. İpucu: Fırçayı çocuğa seçtirin, birlikte 'köpük şarkısı' söyleyip iki dakika sayın."
+    },
+    {
+      "raw_image": "outputs/2026-05-17-ogle-12/raw/slide-5.png",
+      "output": "outputs/2026-05-17-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Bugün dişlerimi pırıl pırıl yaptım, sıra sende! Daha çok eğlenceli macera için Sincap Kitap'ı takip et"
+    }
+  ]
+}
