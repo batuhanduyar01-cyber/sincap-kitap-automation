@@ -65,14 +65,15 @@ def wrap_text(text, font, max_width, draw):
 
 def draw_multiline_center(draw, lines, font, color, start_y, line_spacing=1.1):
     """Ortalanmış çok satırlı metin çiz."""
+    ascent, descent = font.getmetrics()
+    line_h = int((ascent + descent) * line_spacing)
     cur_y = start_y
     for line in lines:
         bbox = draw.textbbox((0, 0), line, font=font)
         w = bbox[2] - bbox[0]
-        h = bbox[3] - bbox[1]
-        x = (CANVAS_W - w) // 2
+        x = (CANVAS_W - w) // 2 - bbox[0]
         draw.text((x, cur_y), line, font=font, fill=color)
-        cur_y += int(h * line_spacing)
+        cur_y += line_h
     return cur_y
 
 
