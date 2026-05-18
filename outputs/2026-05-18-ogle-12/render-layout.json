@@ -1,0 +1,20 @@
+{
+  "output_dir": "outputs/2026-05-18-ogle-12",
+  "palette": {
+    "bg": "#7E5BA0",
+    "accent": "#C5E86C",
+    "text": "#FFFFFF"
+  },
+  "slides": [
+    {"raw_image": "assets/gorseller/2026-05-18-ogle-12/slide-1.png", "output": "outputs/2026-05-18-ogle-12/slide-1.png", "type": "cover",
+     "title_main": "Karanlıkta", "title_accent": "Kim Var?", "subtitle": "Işıklar sönünce odam başka bir yer oluyor.", "decorations": false},
+    {"raw_image": "assets/gorseller/2026-05-18-ogle-12/slide-2.png", "output": "outputs/2026-05-18-ogle-12/slide-2.png", "type": "quote",
+     "quote": "Sen elimi tuttuğunda karanlık bile gülümsüyor."},
+    {"raw_image": "assets/gorseller/2026-05-18-ogle-12/slide-3.png", "output": "outputs/2026-05-18-ogle-12/slide-3.png", "type": "quote",
+     "quote": "Minik bir gece lambası ve senin uyku masalın bana yeter."},
+    {"raw_image": "assets/gorseller/2026-05-18-ogle-12/slide-4.png", "output": "outputs/2026-05-18-ogle-12/slide-4.png", "type": "tip",
+     "title_accent": "Ebeveyn Notu", "body": "Karanlık korkusu, hayal gücünün büyüdüğünün işaretidir. Korkuyu küçümsemeyin, ona bir isim verin. İpucu: Yatmadan önce odanın gündüz halini birlikte hatırlayın."},
+    {"raw_image": "assets/gorseller/2026-05-18-ogle-12/slide-5.png", "output": "outputs/2026-05-18-ogle-12/slide-5.png", "type": "cta",
+     "body": "İyi geceler! Karanlık artık benim minik dostum. Sincap'ın maceraları için Sincap Kitap'ı takip et."}
+  ]
+}
