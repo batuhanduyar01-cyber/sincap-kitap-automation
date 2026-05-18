@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-18-sabah-9",
+  "palette": {
+    "bg": "#E63B5C",
+    "accent": "#C5E86C",
+    "text": "#FFFFFF"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-18-sabah-9/slide-1.png",
+      "output": "outputs/2026-05-18-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Bir De Ben",
+      "title_accent": "Varım!",
+      "subtitle": "Kıskançlık, 'beni unutma' demenin bir yoludur.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-18-sabah-9/slide-2.png",
+      "output": "outputs/2026-05-18-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Kucağınız yeni bebekle doluyken, büyük çocuğunuzun o buruk bakışını yakalıyorsunuz. İçiniz ikiye bölünüyor. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-18-sabah-9/slide-3.png",
+      "output": "outputs/2026-05-18-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Ben de küçükken bana böyle sarılıyordun. Hâlâ senin bebeğin miyim?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-18-sabah-9/slide-4.png",
+      "output": "outputs/2026-05-18-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Kıskançlık sevgisizlik değildir; sevgiyi kaybetme korkusudur. Büyük çocuğunuza 'sadece sana ait' küçük anlar yaratın, kıyaslamadan uzak durun. Bugün: 10 dakika telefonsuz, yalnızca onunla bir oyun zamanı geçirin."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-18-sabah-9/slide-5.png",
+      "output": "outputs/2026-05-18-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Kalbin büyür, anne; iki çocuğa da yeter, hatta artar. Bu yolculukta size eşlik edecek kitaplar için Sincap Kitap'ı takip et."
+    }
+  ]
+}
