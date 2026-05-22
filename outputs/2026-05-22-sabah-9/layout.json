@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-22-sabah-9",
+  "palette": {
+    "bg": "#C9DDEC",
+    "accent": "#E97E28",
+    "text": "#4A352A"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-22-sabah-9/slide-1.png",
+      "output": "outputs/2026-05-22-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Anne, Uykum",
+      "title_accent": "Yok!",
+      "subtitle": "Uyku direnci, çoğu zaman bir veda zorluğudur.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-22-sabah-9/slide-2.png",
+      "output": "outputs/2026-05-22-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Gözleri minik minik kapanıyor ama yatağa gelince birden uyanıyor. Bir bardak su, bir masal daha... Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-22-sabah-9/slide-3.png",
+      "output": "outputs/2026-05-22-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Gözlerimi kapatınca seninle geçen gün de bitiyor. Biraz daha kalmak istiyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-22-sabah-9/slide-4.png",
+      "output": "outputs/2026-05-22-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Uyku direnci inatçılık değil; günün bitişine karşı küçük bir tereddüt. Aynı sırayla ilerleyen sakin bir gece rutini, çocuğa güven verir. Bugün: yatmadan önce 10 dakikalık sessiz bir sarılma vakti deneyebilirsiniz."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-22-sabah-9/slide-5.png",
+      "output": "outputs/2026-05-22-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Her gece biraz daha kolaylaşacak; sen yanındayken uyku da güvenli bir yer. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}

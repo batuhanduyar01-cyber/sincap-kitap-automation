@@ -183,7 +183,7 @@ def render_quote(raw_path, out_path, slide_data, palette):
     quote = slide_data.get("quote", "")
     quote_font = load_font(FONT_BODY, 60)
     lines = wrap_text(quote, quote_font, CANVAS_W - 140, draw)
-    draw_multiline_center(draw, lines, quote_font, "#FFFFFF", 140, 1.25)
+    draw_multiline_center(draw, lines, quote_font, palette["text"], 140, 1.25)
 
     paste_logo(img)
     img.convert("RGB").save(out_path, "PNG")
