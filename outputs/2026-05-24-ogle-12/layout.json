@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-24-ogle-12",
+  "palette": {
+    "bg": "#C9DDEC",
+    "accent": "#7E5BA0",
+    "text": "#1F2A4A"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-24-ogle-12/slide-1.png",
+      "output": "outputs/2026-05-24-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Uyumak mı?",
+      "title_accent": "Daha Çok Erken!",
+      "subtitle": "Küçük bir ayının büyük direnişi.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-24-ogle-12/slide-2.png",
+      "output": "outputs/2026-05-24-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Sımsıkı sarıl, hiç bırakma. Sen yanımdayken karanlık üşümez."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-24-ogle-12/slide-3.png",
+      "output": "outputs/2026-05-24-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Bir masal daha... Sözüm söz, sonra uyuyacağım."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-24-ogle-12/slide-4.png",
+      "output": "outputs/2026-05-24-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Uyku, çocuk için bilinmezliğe yolculuktur. Aynı saat, aynı masal, aynı sarılma; küçük beyne 'güvendesin' der. Bu akşam deneyin: ışığı kıs, kitabı oku, sımsıkı sarıl."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-24-ogle-12/slide-5.png",
+      "output": "outputs/2026-05-24-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "İyi geceler, tatlı rüyalar! Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
