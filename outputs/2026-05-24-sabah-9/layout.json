@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-24-sabah-9",
+  "palette": {
+    "bg": "#C9DDEC",
+    "accent": "#E97E28",
+    "text": "#4A2E1F"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-24-sabah-9/slide-1.png",
+      "output": "outputs/2026-05-24-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Anne, Bir",
+      "title_accent": "Daha Sarıl!",
+      "subtitle": "Uyku direnci, güvende olma ihtiyacının sesidir.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-24-sabah-9/slide-2.png",
+      "output": "outputs/2026-05-24-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Saat geç, gözleri kapanıyor ama \"hayır, uyumayacağım\" diyor. Bir bardak su, bir öpücük, bir kitap daha... Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-24-sabah-9/slide-3.png",
+      "output": "outputs/2026-05-24-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Gözlerimi kapatınca yalnız kalıyorum, oysa gündüz hep birlikteydik."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-24-sabah-9/slide-4.png",
+      "output": "outputs/2026-05-24-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Uykuya direnç inat değil, gün boyu biriken duyguların boşalmasıdır. Aynı sıralama her gece güveni kurar. Bugün deneyebilirsiniz: 10 dakikalık sessiz kitap zamanı, sonra kısa ama net 'iyi geceler'."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-24-sabah-9/slide-5.png",
+      "output": "outputs/2026-05-24-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Uyku rutinini yumuşatacak kitaplar için Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
