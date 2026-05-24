@@ -1,0 +1,41 @@
+{
+  "output_dir": "outputs/2026-05-24-ikindi-15",
+  "palette": {"bg": "#F26B5C", "accent": "#FFE5A5", "text": "#3D1F15"},
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-24-ikindi-15/slide-1.png",
+      "output": "outputs/2026-05-24-ikindi-15/slide-1.png",
+      "type": "cover",
+      "title_main": "Çocuğunuz Üzgün mü,",
+      "title_accent": "Kızgın mı?",
+      "subtitle": "Duyguya isim koymak fırtınayı yatıştırır.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-24-ikindi-15/slide-2.png",
+      "output": "outputs/2026-05-24-ikindi-15/slide-2.png",
+      "type": "inner",
+      "body": "Küçük kalpler büyük duygular taşır. Çocuk içindeki fırtınayı bilmediği için ağlar, kaçar ya da bağırır. O duygunun adını siz verirsiniz."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-24-ikindi-15/slide-3.png",
+      "output": "outputs/2026-05-24-ikindi-15/slide-3.png",
+      "type": "concept",
+      "title_accent": "Adlandırma",
+      "body": "Duyguyu söze döken çocuk, içindeki dalgayı yatıştırır. Ne kadar çok kelimesi varsa o kadar sakindir."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-24-ikindi-15/slide-4.png",
+      "output": "outputs/2026-05-24-ikindi-15/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "'Sakin ol' yerine 'Şu an çok kızgın görünüyorsun, anlatmak ister misin?' deyin. Bu akşam yatmadan önce sorun: 'Bugün hangi duyguyu en çok hissettin?'"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-24-ikindi-15/slide-5.png",
+      "output": "outputs/2026-05-24-ikindi-15/slide-5.png",
+      "type": "cta",
+      "body": "Bu konuyu çocuğunuzla birlikte keşfetmek için Sincap Kitap'ı takip edin 🐿️"
+    }
+  ]
+}
