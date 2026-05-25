@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-25-ogle-12",
+  "palette": {
+    "bg": "#F5C82E",
+    "accent": "#7E5BA0",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-25-ogle-12/slide-1.png",
+      "output": "outputs/2026-05-25-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Tabağımda Bir",
+      "title_accent": "Sürpriz Var mı?",
+      "subtitle": "Her lokma yeni bir keşif.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-25-ogle-12/slide-2.png",
+      "output": "outputs/2026-05-25-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Senin yaptığın yemek dünyanın en lezzetlisi."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-25-ogle-12/slide-3.png",
+      "output": "outputs/2026-05-25-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Yeni tatlar biraz korkutucu, yavaşça denemek istiyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-25-ogle-12/slide-4.png",
+      "output": "outputs/2026-05-25-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Çocuğunuz yeni bir yemeği kabul etmesi için 10-15 deneme gerekebilir. Zorlamak yerine birlikte hazırlayın, küçük tabaklarda sunun, yemek saatini keyifli bir oyuna dönüştürün."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-25-ogle-12/slide-5.png",
+      "output": "outputs/2026-05-25-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Yarın yine birlikte yeni tatlar keşfedelim! Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
