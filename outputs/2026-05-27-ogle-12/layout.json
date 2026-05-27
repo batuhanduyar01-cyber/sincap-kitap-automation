@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-27-ogle-12",
+  "palette": {
+    "bg": "#C9DDEC",
+    "accent": "#E97E28",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-27-ogle-12/slide-1.png",
+      "output": "outputs/2026-05-27-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Banyo mu?",
+      "title_accent": "Yine mi?!",
+      "subtitle": "Köpükler gelmeden saklanıyorum.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-27-ogle-12/slide-2.png",
+      "output": "outputs/2026-05-27-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Aslında küvetteki ördekleri çok seviyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-27-ogle-12/slide-3.png",
+      "output": "outputs/2026-05-27-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Suyun şıpır şıpır sesi bana garip geliyor."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-27-ogle-12/slide-4.png",
+      "output": "outputs/2026-05-27-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Banyo direnci çoğu zaman su sesinden ya da köpük hissinden gelir. Aceleye getirmeyin, oyuncak getirin, şarkı söyleyin. Bu akşam: küvet kenarına oturup elini suya değdirmesini bekleyin."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-27-ogle-12/slide-5.png",
+      "output": "outputs/2026-05-27-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Banyo macerası daha eğlenceli olsun diye Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
