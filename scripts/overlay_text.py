@@ -143,11 +143,13 @@ def render_cover(raw_path, out_path, slide_data, palette):
     start_y = 120
     cur_y = draw_multiline_center(draw, main_lines, title_font, palette["text"], start_y, 1.0)
 
-    # Aksan kelime (farklı renkte, biraz daha büyük)
+    # Aksan kelime (farklı renkte, biraz daha büyük) — display font descender
+    # için ekstra alt boşluk
     if title_accent:
         accent_font = load_font(FONT_TITLE, 140)
         accent_lines = wrap_text(title_accent, accent_font, max_w, draw)
         cur_y = draw_multiline_center(draw, accent_lines, accent_font, palette["accent"], cur_y + 10, 1.0)
+        cur_y += 50
 
     # Alt başlık
     if subtitle:
