@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-28-sabah-9",
+  "palette": {
+    "bg": "#E63B5C",
+    "accent": "#C5E86C",
+    "text": "#FFFFFF"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-28-sabah-9/slide-1.png",
+      "output": "outputs/2026-05-28-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "O Çığlık Aslında",
+      "title_accent": "Bir Çağrı",
+      "subtitle": "Öfke nöbetleri, kelimelerin yetmediği yerdedir.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-28-sabah-9/slide-2.png",
+      "output": "outputs/2026-05-28-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Markette tüm gözler size dönüyor. Çocuğunuz yere yatmış, ağlıyor. Siz de çaresizce nefes alıyorsunuz. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-28-sabah-9/slide-3.png",
+      "output": "outputs/2026-05-28-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "İçimde kocaman bir fırtına var, ama nasıl söyleyeceğimi bilmiyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-28-sabah-9/slide-4.png",
+      "output": "outputs/2026-05-28-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Öfke nöbetleri gelişimin doğal bir parçası. Çocuğunuz size kötülük yapmıyor; sadece duygularının büyüklüğünden ürküyor. Bugün: Onun yanına çömelip 'Buradayım, hazır olunca kucağıma gel,' diyebilirsiniz."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-28-sabah-9/slide-5.png",
+      "output": "outputs/2026-05-28-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Her fırtına geçer; senin sakin sevgin onun limanı oluyor. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
