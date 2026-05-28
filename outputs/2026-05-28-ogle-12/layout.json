@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-28-ogle-12",
+  "palette": {
+    "bg": "#F5C82E",
+    "accent": "#7E5BA0",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-28-ogle-12/slide-1.png",
+      "output": "outputs/2026-05-28-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Dişlerimi",
+      "title_accent": "Fırçalamak İstemiyorum!",
+      "subtitle": "Ama bazen küçük bir oyun her şeyi değiştirir.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-28-ogle-12/slide-2.png",
+      "output": "outputs/2026-05-28-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Sen yanımdayken fırça köpüğü kar gibi oluyor anne!"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-28-ogle-12/slide-3.png",
+      "output": "outputs/2026-05-28-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Ben küçüğüm, fırça koca ağzımda gıdıklıyor — yavaş yavaş gidelim mi?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-28-ogle-12/slide-4.png",
+      "output": "outputs/2026-05-28-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Diş fırçalama bir oyun olabilir. Şarkı söyleyin, fırçayı çocuğa tutturun, aynada birlikte gülün. Direnç değil, ritüel kurun."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-28-ogle-12/slide-5.png",
+      "output": "outputs/2026-05-28-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Köpüklü maceralar için Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
