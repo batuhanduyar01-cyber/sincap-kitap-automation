@@ -1,0 +1,45 @@
+{
+  "output_dir": "outputs/2026-05-28-ikindi-15",
+  "palette": {
+    "bg": "#F5C82E",
+    "accent": "#8E4FAA",
+    "text": "#2A1810"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-28-ikindi-15/slide-1.png",
+      "output": "outputs/2026-05-28-ikindi-15/slide-1.png",
+      "type": "cover",
+      "title_main": "Hayal Gücü",
+      "title_accent": "Sınır Tanımaz",
+      "subtitle": "Küçük zihinlerin büyük dünyaları.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-28-ikindi-15/slide-2.png",
+      "output": "outputs/2026-05-28-ikindi-15/slide-2.png",
+      "type": "inner",
+      "body": "Çocuklar bir kutuyu uzay gemisine, battaniyeyi şato sancağına çevirir. Bu sihir, hayal güçlerinin dünyaya dokunuşudur."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-28-ikindi-15/slide-3.png",
+      "output": "outputs/2026-05-28-ikindi-15/slide-3.png",
+      "type": "concept",
+      "title_accent": "Merak",
+      "body": "Hayal gücü meraktan beslenir. Sorularını yargılamadan dinleyin, beraber düşünün."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-28-ikindi-15/slide-4.png",
+      "output": "outputs/2026-05-28-ikindi-15/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Açık uçlu sorular, sade nesneler ve boş zaman hayal gücünü büyütür. Bu akşam deneyin: 'Bir bulut olsaydın nereye giderdin?' diye sorun."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-28-ikindi-15/slide-5.png",
+      "output": "outputs/2026-05-28-ikindi-15/slide-5.png",
+      "type": "cta",
+      "body": "Bu konuyu çocuğunuzla birlikte keşfetmek için Sincap Kitap'ı takip edin 🐿️"
+    }
+  ]
+}
