@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-05-30-ogle-12",
+  "palette": {
+    "bg": "#F08A7B",
+    "accent": "#FFF4E6",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-05-30-ogle-12/slide-1.png",
+      "output": "outputs/2026-05-30-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Dişlerimi",
+      "title_accent": "Fırçalamak İstemiyorum!",
+      "subtitle": "Ama belki bir oyun olabilir mi?",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-30-ogle-12/slide-2.png",
+      "output": "outputs/2026-05-30-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Annemle birlikte fırçalarken kahkaha atıyoruz."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-30-ogle-12/slide-3.png",
+      "output": "outputs/2026-05-30-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Ağzımda köpük olunca biraz korkuyorum, elimi tut."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-30-ogle-12/slide-4.png",
+      "output": "outputs/2026-05-30-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Diş fırçalama bir görev değil, küçük bir tören olabilir. Müzik açın, ayna karşısında birlikte fırçalayın. Eğlence, direnci eritir."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-05-30-ogle-12/slide-5.png",
+      "output": "outputs/2026-05-30-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Yarın yine birlikte fırçalarız! Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
