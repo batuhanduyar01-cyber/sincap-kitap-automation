@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-02-sabah-9",
+  "palette": {
+    "bg": "#C9DDEC",
+    "accent": "#E97E28",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-02-sabah-9/slide-1.png",
+      "output": "outputs/2026-06-02-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Yatak Vakti",
+      "title_accent": "Savaş!",
+      "subtitle": "Uyku direnci, küçük bedenin büyük direnişi.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-02-sabah-9/slide-2.png",
+      "output": "outputs/2026-06-02-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Gözleri kapanıyor ama 'uyumam!' diyor. Üçüncü kez su isteyince kendinizi kaybediyorsunuz. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-02-sabah-9/slide-3.png",
+      "output": "outputs/2026-06-02-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Karanlıkta gözlerimi kapatınca seni bulamayacakmışım gibi geliyor."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-02-sabah-9/slide-4.png",
+      "output": "outputs/2026-06-02-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Uyku direnci aslında küçük bir ayrılıktır. Sabit ritüel — banyo, masal, sarılma — beynin 'güvendeyim' demesini sağlar. Bugün: aynı sırayla 3 küçük adımı tekrarlayın."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-02-sabah-9/slide-5.png",
+      "output": "outputs/2026-06-02-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Uykuya geçişi yumuşatan masallarla yanındayız. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
