@@ -1,0 +1,41 @@
+{
+  "output_dir": "outputs/2026-06-02-ikindi-15",
+  "palette": {"bg": "#F5C82E", "accent": "#8E4FAA", "text": "#4A2C2A"},
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-02-ikindi-15/slide-1.png",
+      "output": "outputs/2026-06-02-ikindi-15/slide-1.png",
+      "type": "cover",
+      "title_main": "Çocuğun İçindeki En Değerli Hazine",
+      "title_accent": "Merak",
+      "subtitle": "Sorular bitmiyorsa endişelenmeyin; bir bilim insanı büyütüyorsunuz.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-02-ikindi-15/slide-2.png",
+      "output": "outputs/2026-06-02-ikindi-15/slide-2.png",
+      "type": "inner",
+      "body": "Çocuklar dünyaya kocaman bir 'Neden?' ile bakar. Her sordukları soru, beyinlerinde açılan yeni bir kapıdır. Merak; nefes almak kadar doğal bir öğrenme yoludur."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-02-ikindi-15/slide-3.png",
+      "output": "outputs/2026-06-02-ikindi-15/slide-3.png",
+      "type": "concept",
+      "title_accent": "Merak",
+      "body": "Bilmediğini fark eden, sorgulayan ve cevabı için sabırla didinen çocuk; öğrenmeyi gerçekten seven yetişkine dönüşür."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-02-ikindi-15/slide-4.png",
+      "output": "outputs/2026-06-02-ikindi-15/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Çocuğunuzun sorularını 'sonra' diye geçiştirmek yerine, 'Sen ne dersin?' diye geri sorun. Cevabı bilmediğinizde 'Hadi birlikte öğrenelim' deyin. Bu akşam: Mutfak dolabınızdan tuhaf görünümlü bir nesne seçin ve birlikte beş yeni 'Neden böyle?' sorusu üretin."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-02-ikindi-15/slide-5.png",
+      "output": "outputs/2026-06-02-ikindi-15/slide-5.png",
+      "type": "cta",
+      "body": "Bu konuyu çocuğunuzla birlikte keşfetmek için Sincap Kitap'ı takip edin 🐿️"
+    }
+  ]
+}
