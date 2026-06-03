@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-03-ogle-12",
+  "palette": {
+    "bg": "#F5C82E",
+    "accent": "#7E5BA0",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-03-ogle-12/slide-1.png",
+      "output": "outputs/2026-06-03-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Ben Yaparım",
+      "title_accent": "Diyince…",
+      "subtitle": "Küçük ellerin koskocaman bir macerası.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-03-ogle-12/slide-2.png",
+      "output": "outputs/2026-06-03-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Senin gibi olmak için kendim deniyorum, anne. Beni biraz bekler misin?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-03-ogle-12/slide-3.png",
+      "output": "outputs/2026-06-03-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Düğmem ters olabilir, çorabım dönük olabilir… Ama gururum kocaman!"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-03-ogle-12/slide-4.png",
+      "output": "outputs/2026-06-03-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Çocuğunuzun \"ben yaparım\" ısrarı, benlik duygusunun çiçeklenmesidir. Acele etmeyin, hata yapmasına alan açın. İpucu: Hazırlığa 10 dakika erken başlayın; \"Beraber mi, sen mi?\" diye sorup seçim hakkı tanıyın."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-03-ogle-12/slide-5.png",
+      "output": "outputs/2026-06-03-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Yarın yine deneyeceğim, görüşürüz! Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
