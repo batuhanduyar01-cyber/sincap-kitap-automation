@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-04-ogle-12",
+  "palette": {
+    "bg": "#F5C82E",
+    "accent": "#7E5BA0",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-04-ogle-12/slide-1.png",
+      "output": "outputs/2026-06-04-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Ben Dişlerimi",
+      "title_accent": "Fırçalamam!",
+      "subtitle": "Çocuğun ağzından küçük bir hikâye",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-04-ogle-12/slide-2.png",
+      "output": "outputs/2026-06-04-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Annem benimle birlikte fırçalayınca bu oyun bizim oluyor."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-04-ogle-12/slide-3.png",
+      "output": "outputs/2026-06-04-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Ağzımın içi bana kocaman bir mağara gibi geliyor. Acele etmesek olur mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-04-ogle-12/slide-4.png",
+      "output": "outputs/2026-06-04-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Diş fırçalamak çocuğa kontrol kaybı gibi gelebilir. Önce siz fırçalayın, sonra çocuk denesin. Birlikte söylenen kısa bir şarkı, direnci oyuna çevirir."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-04-ogle-12/slide-5.png",
+      "output": "outputs/2026-06-04-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Sincap'ın maceralarının tamamı için Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
