@@ -1,0 +1,45 @@
+{
+  "output_dir": "outputs/2026-06-05-sabah-9",
+  "palette": {
+    "name": "AHUDUDU",
+    "bg": "#E63B5C",
+    "accent": "#C5E86C",
+    "text": "#FFFFFF"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-05-sabah-9/slide-1.png",
+      "output": "outputs/2026-06-05-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Onu Ben",
+      "title_accent": "Giyeceğim!",
+      "subtitle": "Kıyafet inadı, küçük bir kararlılığın ilk sesidir.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-05-sabah-9/slide-2.png",
+      "output": "outputs/2026-06-05-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Saat sekizi geçiyor, kapıdan çıkmak gerek. O ise üçüncü kez kıyafetini değiştirdi. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-05-sabah-9/slide-3.png",
+      "output": "outputs/2026-06-05-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Ben artık büyüdüm, kendim seçmek istiyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-05-sabah-9/slide-4.png",
+      "output": "outputs/2026-06-05-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Kıyafet seçimi, çocuğunuzun ilk küçük özgürlük alanıdır. İnat değil, 'ben de varım' demenin sevimli bir yolu. Bugün: Akşamdan iki kıyafet hazırlayın, sabah o seçsin."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-05-sabah-9/slide-5.png",
+      "output": "outputs/2026-06-05-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "O küçük 'ben kendim' anlarına eşlik edecek kitaplar için Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
