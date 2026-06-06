@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-06-sabah-9",
+  "palette": {
+    "bg": "#F08A7B",
+    "accent": "#FFF1D4",
+    "text": "#4A2C1A"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-06-sabah-9/slide-1.png",
+      "output": "outputs/2026-06-06-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Küçük Bedende",
+      "title_accent": "Büyük Fırtına",
+      "subtitle": "Öfke nöbetleri, ifade edilemeyen duyguların sesidir.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-06-sabah-9/slide-2.png",
+      "output": "outputs/2026-06-06-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Markette bir anda yere yatıyor, bağırıyor, tekmeliyor. Etraftakilerin bakışları üzerinizde. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-06-sabah-9/slide-3.png",
+      "output": "outputs/2026-06-06-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "İçimde bir şey patlıyor ama nasıl söyleyeceğimi bilmiyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-06-sabah-9/slide-4.png",
+      "output": "outputs/2026-06-06-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Öfke nöbetleri, çocuğunuzun yaramaz olduğunun değil, henüz duygularıyla baş edemediğinin işaretidir. Bugün: Sakin bir nefes alın, yanına oturun ve sadece 'Yanındayım' deyin."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-06-sabah-9/slide-5.png",
+      "output": "outputs/2026-06-06-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Fırtınalar geçer, sevgi kalır. Bu yolculukta yalnız değilsin. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
