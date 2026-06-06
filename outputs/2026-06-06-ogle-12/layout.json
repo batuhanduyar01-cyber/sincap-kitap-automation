@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-06-ogle-12",
+  "palette": {
+    "bg": "#F5C82E",
+    "accent": "#8E4FAA",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-06-ogle-12/slide-1.png",
+      "output": "outputs/2026-06-06-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Diş Fırçası",
+      "title_accent": "İstemem!",
+      "subtitle": "Minik dişler büyük bir macera ister.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-06-ogle-12/slide-2.png",
+      "output": "outputs/2026-06-06-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Annemle banyoda kıkır kıkır gülerken zamanı unutuyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-06-ogle-12/slide-3.png",
+      "output": "outputs/2026-06-06-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Fırça köpürünce karnım gıdıklanıyor, biraz korkuyorum biraz da merak ediyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-06-ogle-12/slide-4.png",
+      "output": "outputs/2026-06-06-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Diş fırçalama bir savaş değil, küçük bir oyun olabilir. Çocuğunuza fırçayı tanıtın, kendisi denesin. İpucu: Aynanın önünde birlikte fırçalayın, taklit en hızlı öğretmen."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-06-ogle-12/slide-5.png",
+      "output": "outputs/2026-06-06-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Şimdi yumuşacık dişlerimi parlatmaya gidiyorum! Sincap Kitap'ı takip et."
+    }
+  ]
+}
