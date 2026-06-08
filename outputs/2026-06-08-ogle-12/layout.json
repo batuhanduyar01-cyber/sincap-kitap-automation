@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-08-ogle-12",
+  "palette": {
+    "bg": "#F5C82E",
+    "accent": "#8E4FAA",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-08-ogle-12/slide-1.png",
+      "output": "outputs/2026-06-08-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Ben Büyüdüm,",
+      "title_accent": "Ben Yaparım!",
+      "subtitle": "Çünkü artık kocaman ben!",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-08-ogle-12/slide-2.png",
+      "output": "outputs/2026-06-08-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Seninle birlikte yaparsam daha güzel oluyor."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-08-ogle-12/slide-3.png",
+      "output": "outputs/2026-06-08-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Küçük ellerim var ama kocaman hayallerim!"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-08-ogle-12/slide-4.png",
+      "output": "outputs/2026-06-08-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Çocuğunuz bağımsızlık yolculuğunda. Beceremediğinde sabırla bekleyin, hatasıyla öğrenmesine alan açın. İpucu: 'Sen başla, takılırsan ben yanındayım' deyin."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-08-ogle-12/slide-5.png",
+      "output": "outputs/2026-06-08-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Ben de ben yapabilirim! Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
