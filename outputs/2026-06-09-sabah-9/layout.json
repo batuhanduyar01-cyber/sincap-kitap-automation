@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-09-sabah-9",
+  "palette": {
+    "bg": "#C9DDEC",
+    "accent": "#E97E28",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-09-sabah-9/slide-1.png",
+      "output": "outputs/2026-06-09-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Anne, Bir",
+      "title_accent": "Daha Olmaz Mı?",
+      "subtitle": "Uyku direnci, gelişen bağımsızlığın işaretidir.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-09-sabah-9/slide-2.png",
+      "output": "outputs/2026-06-09-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Saat dokuz oldu. Üçüncü kez 'bir su daha' diye sesleniyor. Yorgunsunuz ama o hâlâ uyumak istemiyor. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-09-sabah-9/slide-3.png",
+      "output": "outputs/2026-06-09-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Gözlerimi kapatınca, sanki dünyayı kaçıracakmışım gibi geliyor."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-09-sabah-9/slide-4.png",
+      "output": "outputs/2026-06-09-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Direnç inat değil, güne veda etmenin zorluğudur. Aynı sırayla yapılan bir gece ritüeli 'şimdi güvendeyim' fısıltısıdır. Bugün deneyin: ışığı kıs, üç sayfa kitap, son bir öpücük."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-09-sabah-9/slide-5.png",
+      "output": "outputs/2026-06-09-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Geceleri yumuşatan, kalpleri rahatlatan kitaplar için Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
