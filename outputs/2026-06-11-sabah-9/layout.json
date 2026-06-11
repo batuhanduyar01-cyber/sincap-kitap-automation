@@ -1,0 +1,45 @@
+{
+  "output_dir": "outputs/2026-06-11-sabah-9",
+  "palette": {
+    "name": "TOZ MAVİSİ",
+    "bg": "#C9DDEC",
+    "accent": "#E97E28",
+    "text": "#4A2C1A"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-11-sabah-9/slide-1.png",
+      "output": "outputs/2026-06-11-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Anne, Bir Daha",
+      "title_accent": "Uyumayalım...",
+      "subtitle": "Uyku direnci, yorgunluğun maskesi olabilir.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-11-sabah-9/slide-2.png",
+      "output": "outputs/2026-06-11-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Saat geç, enerjiniz tükenmiş; ama o hâlâ kalkmak istiyor. 'Bir hikaye daha, bir öpücük daha' diye uzayan ritüel. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-11-sabah-9/slide-3.png",
+      "output": "outputs/2026-06-11-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Karanlık olunca dünya çok büyük, ben çok küçük kalıyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-11-sabah-9/slide-4.png",
+      "output": "outputs/2026-06-11-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Uykuya direnç, çocuğun günü bırakmakta zorlanmasıdır. Tahmin edilebilir bir rutin, güven kapısını açar. Bugün: 'Önce diş, sonra hikaye, sonra ışık kapanır' diye sırayı söze dökün."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-11-sabah-9/slide-5.png",
+      "output": "outputs/2026-06-11-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Her gece biraz daha kolaylaşacak. Bu yolculukta sana eşlik edecek kitaplar için Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
