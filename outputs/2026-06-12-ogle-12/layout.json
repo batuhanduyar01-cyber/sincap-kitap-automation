@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-12-ogle-12",
+  "palette": {
+    "bg": "#F5C82E",
+    "accent": "#8E4FAA",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-12-ogle-12/slide-1.png",
+      "output": "outputs/2026-06-12-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Dişlerim Fırçalanmak",
+      "title_accent": "İstemiyor!",
+      "subtitle": "Ağzıma ne yaklaşırsa kaçırım!",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-12-ogle-12/slide-2.png",
+      "output": "outputs/2026-06-12-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Seni çok seviyorum anne, ama o fırça beni çoook gıdıklıyor!"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-12-ogle-12/slide-3.png",
+      "output": "outputs/2026-06-12-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Dişlerim minicik, ama içlerinde kocaman bir gülüş saklı."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-12-ogle-12/slide-4.png",
+      "output": "outputs/2026-06-12-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Diş fırçalamak çocuk için yabancı, kontrol kaybı gibi gelen bir histir. Önce oyuncağın dişini fırçalayın, sıra çocuğa 'gelince' oyuna çevirin. Pratik ipucu: 2 dakikalık bir şarkı seçin; şarkı bittiğinde fırça da bitsin."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-12-ogle-12/slide-5.png",
+      "output": "outputs/2026-06-12-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Bak şimdi parlıyor dişlerim! Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
