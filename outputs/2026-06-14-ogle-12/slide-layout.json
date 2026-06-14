@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-14-ogle-12",
+  "palette": {
+    "bg": "#F08A7B",
+    "accent": "#7E5BA0",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-14-ogle-12/slide-1.png",
+      "output": "outputs/2026-06-14-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Diş Fırçası Niye",
+      "title_accent": "Bu Kadar Büyük?",
+      "subtitle": "Minik bir tavşanın koca soruları.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-14-ogle-12/slide-2.png",
+      "output": "outputs/2026-06-14-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Annem fırçalarken bana ninniler söylüyor, çok seviyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-14-ogle-12/slide-3.png",
+      "output": "outputs/2026-06-14-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Ağzımdaki şu garip köpük beni biraz korkutuyor."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-14-ogle-12/slide-4.png",
+      "output": "outputs/2026-06-14-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Direnç korkudan doğar. Fırçayı önce oyuncağa, sonra parmağa, en son ağza götürün. Şarkı eşliğinde iki dakika sihirli olur."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-14-ogle-12/slide-5.png",
+      "output": "outputs/2026-06-14-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Yarın yine fırçalayalım mı? Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
