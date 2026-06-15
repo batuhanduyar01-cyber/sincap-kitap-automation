@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-15-ogle-12",
+  "palette": {
+    "bg": "#E97E28",
+    "accent": "#7E5BA0",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-15-ogle-12/slide-1.png",
+      "output": "outputs/2026-06-15-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Dişlerimi Fırçalamak",
+      "title_accent": "İstemiyorum!",
+      "subtitle": "(Aslında biraz istiyorum ama söylemem.)",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-15-ogle-12/slide-2.png",
+      "output": "outputs/2026-06-15-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Sen yanımda olursan o köpük canavarından korkmam."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-15-ogle-12/slide-3.png",
+      "output": "outputs/2026-06-15-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Ağzım çok küçücük ama orada koca bir orman saklı, biliyor musun?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-15-ogle-12/slide-4.png",
+      "output": "outputs/2026-06-15-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Diş fırçalama savaş değil oyundur. Aynanın önünde birlikte komik suratlar yapın, fırçayı sırayla tutun. İpucu: 'Sen bana, ben sana' oyunu direnci eğlenceye çevirir."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-15-ogle-12/slide-5.png",
+      "output": "outputs/2026-06-15-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Yarın yine birlikte fırçalarız, söz! Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
