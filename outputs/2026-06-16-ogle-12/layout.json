@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-16-ogle-12",
+  "palette": {
+    "bg": "#E97E28",
+    "accent": "#7E5BA0",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-16-ogle-12/slide-1.png",
+      "output": "outputs/2026-06-16-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Yemek Vakti",
+      "title_accent": "Sevmiyorum!",
+      "subtitle": "Çocuğun küçük tabağında kocaman bir dünya var.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-16-ogle-12/slide-2.png",
+      "output": "outputs/2026-06-16-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Seninle aynı masada olmak, en sevdiğim şey."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-16-ogle-12/slide-3.png",
+      "output": "outputs/2026-06-16-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Yeni tatlar biraz korkutucu, bana zaman ver."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-16-ogle-12/slide-4.png",
+      "output": "outputs/2026-06-16-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Çocuklar tabaktaki rengi, dokuyu, kokuyu önce gözleriyle tanır. Israr yerine küçük lokmalar ve tekrar tanışma fırsatı sunun; reddi sabırla karşılayın."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-16-ogle-12/slide-5.png",
+      "output": "outputs/2026-06-16-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Bugünlük bu kadar! Yeni minik hikâyeler için Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
