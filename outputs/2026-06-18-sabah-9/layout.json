@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-18-sabah-9",
+  "palette": {
+    "bg": "#C9DDEC",
+    "accent": "#E97E28",
+    "text": "#3A2A1A"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-18-sabah-9/slide-1.png",
+      "output": "outputs/2026-06-18-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Anne, Uykum",
+      "title_accent": "Gelmiyor!",
+      "subtitle": "Uykuya direnç, küçük dünyaların büyük direnişidir.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-18-sabah-9/slide-2.png",
+      "output": "outputs/2026-06-18-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Gece on bir. Battaniyenin altında bin bir oyun, bin bir soru. Sen yorgunsun, o gözleri pırıl pırıl. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-18-sabah-9/slide-3.png",
+      "output": "outputs/2026-06-18-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Karanlık olunca odam büyüyor, ben küçülüyorum. Sen yanımdayken uyumak kolay."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-18-sabah-9/slide-4.png",
+      "output": "outputs/2026-06-18-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Uyku, çocuk için bir 'veda'dır — günün, oyunun, senin. Veda zor olduğu için direnir. Bugün yatak öncesi 10 dakika 'sessiz beraberlik' deneyebilirsiniz: kucakta bir kitap, fısıltıyla bir sohbet."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-18-sabah-9/slide-5.png",
+      "output": "outputs/2026-06-18-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "İyi geceler aslında 'gündüze kadar seninleyim' demektir. Bu süreçte sana eşlik edecek kitaplar için Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
