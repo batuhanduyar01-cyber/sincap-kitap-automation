@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-19-sabah-9",
+  "palette": {
+    "bg": "#E63B5C",
+    "accent": "#C5E86C",
+    "text": "#FFFFFF"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-19-sabah-9/slide-1.png",
+      "output": "outputs/2026-06-19-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Öfke",
+      "title_accent": "Patladı!",
+      "subtitle": "Küçücük kalpte taşan büyük duygular.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-19-sabah-9/slide-2.png",
+      "output": "outputs/2026-06-19-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Markette yere yattı, herkes size bakıyor. Çaresizlik, utanç ve sevgi aynı anda içinizde. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-19-sabah-9/slide-3.png",
+      "output": "outputs/2026-06-19-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Bu duygu içime sığmıyor anne, ne yapacağımı bilmiyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-19-sabah-9/slide-4.png",
+      "output": "outputs/2026-06-19-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Öfke nöbetleri yaramazlık değil; küçük bir beynin büyük bir duyguyla baş etme çabasıdır. Bugün: Yere çömelin, göz hizasına gelin ve sadece 'Yanındayım' deyin."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-19-sabah-9/slide-5.png",
+      "output": "outputs/2026-06-19-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Duyguları anlamak, sevgiyle başlar. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
