@@ -1,0 +1,45 @@
+{
+  "output_dir": "outputs/2026-06-19-ikindi-15",
+  "palette": {
+    "bg": "#F5C82E",
+    "accent": "#8E4FAA",
+    "text": "#3B1F00"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-19-ikindi-15/slide-1.png",
+      "output": "outputs/2026-06-19-ikindi-15/slide-1.png",
+      "type": "cover",
+      "title_main": "Çocuklar Neden",
+      "title_accent": "Hayal Kurar?",
+      "subtitle": "Her hayal, küçük bir dünyanın tohumudur.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-19-ikindi-15/slide-2.png",
+      "output": "outputs/2026-06-19-ikindi-15/slide-2.png",
+      "type": "inner",
+      "body": "Salon halısı denizin dibi, koltuk ise gemi olur. Çocuğunuzun gözleri parıldarken aslında zihni inşa halindedir."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-19-ikindi-15/slide-3.png",
+      "output": "outputs/2026-06-19-ikindi-15/slide-3.png",
+      "type": "concept",
+      "title_accent": "Yaratıcılık",
+      "body": "Hayal gücü; problem çözmenin, dilin ve empatinin temelidir. Eli boş bir an, en zengin oyun olabilir."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-19-ikindi-15/slide-4.png",
+      "output": "outputs/2026-06-19-ikindi-15/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Her oyunun bir amaca dönüşmesi gerekmez. Sıkılma anları, yaratıcılığı besler. Bu akşam: çocuğunuza bir karton kutu verin, gerisini ona bırakın."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-19-ikindi-15/slide-5.png",
+      "output": "outputs/2026-06-19-ikindi-15/slide-5.png",
+      "type": "cta",
+      "body": "Bu konuyu çocuğunuzla birlikte keşfetmek için Sincap Kitap'ı takip edin 🐿️"
+    }
+  ]
+}
