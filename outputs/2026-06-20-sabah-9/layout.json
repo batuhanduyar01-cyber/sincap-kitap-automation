@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-20-sabah-9",
+  "palette": {
+    "bg": "#7E5BA0",
+    "accent": "#C5E86C",
+    "text": "#FFFFFF"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-20-sabah-9/slide-1.png",
+      "output": "outputs/2026-06-20-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Anne, Patlıyorum",
+      "title_accent": "Yardım Et!",
+      "subtitle": "Öfke nöbetleri, küçük bir kalbin duygu fırtınasıdır.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-20-sabah-9/slide-2.png",
+      "output": "outputs/2026-06-20-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Marketin ortasında yere yığılıp ağlıyor. Çevredeki bakışlar üstünüze çevriliyor, içiniz daralıyor. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-20-sabah-9/slide-3.png",
+      "output": "outputs/2026-06-20-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Ben de bilmiyorum ne olduğunu... İçimde fırtınalar kopuyor anne."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-20-sabah-9/slide-4.png",
+      "output": "outputs/2026-06-20-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Öfke nöbeti bir terbiye sorunu değil, gelişimin doğal bir evresi. Çocuğunuz duyguları sözle ifade etmeyi henüz öğreniyor. Bugün deneyin: Yere çömelin, sarın ve sadece 'Yanındayım' deyin. Açıklama sonra gelir."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-20-sabah-9/slide-5.png",
+      "output": "outputs/2026-06-20-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Bu fırtınalı günlerde yalnız değilsin. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
