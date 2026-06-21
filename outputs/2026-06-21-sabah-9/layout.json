@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-21-sabah-9",
+  "palette": {
+    "bg": "#E63B5C",
+    "accent": "#C5E86C",
+    "text": "#FFFFFF"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-21-sabah-9/slide-1.png",
+      "output": "outputs/2026-06-21-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "İçindeki",
+      "title_accent": "Fırtına",
+      "subtitle": "Öfke nöbeti, küçük yüreğin büyük yüküdür.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-21-sabah-9/slide-2.png",
+      "output": "outputs/2026-06-21-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Markette istediği oyuncağı alamadı. Yere yattı, çığlık attı. Tüm gözler üzerinizde. Bu sahne tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-21-sabah-9/slide-3.png",
+      "output": "outputs/2026-06-21-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "İçimde kocaman bir öfke var, ama ona ne yapacağımı bilmiyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-21-sabah-9/slide-4.png",
+      "output": "outputs/2026-06-21-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Öfke nöbeti çocuğun inadı değil, gelişen beyninin işidir. 6 yaş öncesi duyguları düzenleyen alan henüz olgunlaşmamıştır. Bugün: diz çöküp göz hizasına inin, 'Buradayım, seni anlıyorum' deyin. Çözüm sonradan gelir."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-21-sabah-9/slide-5.png",
+      "output": "outputs/2026-06-21-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Fırtınadan sonra gökkuşağı gelir, sevgili anne. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
