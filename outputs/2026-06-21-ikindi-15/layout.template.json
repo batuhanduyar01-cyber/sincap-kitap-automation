@@ -1,0 +1,41 @@
+{
+  "output_dir": "outputs/2026-06-21-ikindi-15",
+  "palette": {"bg": "#E97E5C", "accent": "#FFF4E8", "text": "#3A1C18"},
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-21-ikindi-15/slide-1.png",
+      "output": "outputs/2026-06-21-ikindi-15/slide-1.png",
+      "type": "cover",
+      "title_main": "Çocuğun Duygularını",
+      "title_accent": "Adlandırmak",
+      "subtitle": "Küçük yüreklerdeki büyük dalgalara isim vermenin sihri.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-21-ikindi-15/slide-2.png",
+      "output": "outputs/2026-06-21-ikindi-15/slide-2.png",
+      "type": "inner",
+      "body": "Çocuk, hissini henüz bilmediğinde dünya ona karmakarışık gelir. Biz ona 'şu an üzgünsün' dediğimizde, içindeki fırtına yavaşça bir resme dönüşür."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-21-ikindi-15/slide-3.png",
+      "output": "outputs/2026-06-21-ikindi-15/slide-3.png",
+      "type": "concept",
+      "title_accent": "Sözcükler",
+      "body": "Bir duyguyu kelimeyle yakalayan çocuk artık ondan korkmaz; onunla konuşmayı, onu paylaşmayı öğrenir."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-21-ikindi-15/slide-4.png",
+      "output": "outputs/2026-06-21-ikindi-15/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Çocuğunuz bağırıp ağladığında 'sus' yerine 'Şu an çok kızgın görünüyorsun, anlıyorum' deyin. Bu cümle hem onu sakinleştirir hem duygu sözcüğünü öğretir. Bu akşam: 'Bugün hangi duyguları yaşadın?' diye sorun."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-21-ikindi-15/slide-5.png",
+      "output": "outputs/2026-06-21-ikindi-15/slide-5.png",
+      "type": "cta",
+      "body": "Bu konuyu çocuğunuzla birlikte keşfetmek için Sincap Kitap'ı takip edin 🐿️"
+    }
+  ]
+}
