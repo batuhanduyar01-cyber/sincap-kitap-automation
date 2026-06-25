@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-25-sabah-9",
+  "palette": {
+    "bg": "#C9DDEC",
+    "accent": "#E97E28",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-25-sabah-9/slide-1.png",
+      "output": "outputs/2026-06-25-sabah-9/slide-1.png",
+      "type": "cover",
+      "title_main": "Anne, Daha",
+      "title_accent": "Uyumam!",
+      "subtitle": "Uyku direnci, büyümenin sessiz bir provası.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-25-sabah-9/slide-2.png",
+      "output": "outputs/2026-06-25-sabah-9/slide-2.png",
+      "type": "inner",
+      "body": "Saat 21:30. Pijamalar giyildi, ışıklar kısıldı. Ama o yatağa çıktığı an: 'Susadım… Tuvaletim var… Bir hikâye daha…' Tanıdık geliyor mu?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-25-sabah-9/slide-3.png",
+      "output": "outputs/2026-06-25-sabah-9/slide-3.png",
+      "type": "quote",
+      "quote": "Gözlerimi kapatınca dünya çok büyük oluyor. Yanımda olduğunu hissedince huzur buluyorum."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-25-sabah-9/slide-4.png",
+      "output": "outputs/2026-06-25-sabah-9/slide-4.png",
+      "type": "tip",
+      "title_accent": "UNUTMAYIN!",
+      "body": "Uyku direnci geçici bir gelişim aşamasıdır. Tutarlı bir rutin, güvenli bir geçiş kurar. Bu gece: aynı sıralamayı izleyin — banyo, kitap, ışık, uyku."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-25-sabah-9/slide-5.png",
+      "output": "outputs/2026-06-25-sabah-9/slide-5.png",
+      "type": "cta",
+      "body": "Her yorucu gece, bir gün hatırlanacak bir hikâye olacak. Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
