@@ -1,0 +1,44 @@
+{
+  "output_dir": "outputs/2026-06-25-ogle-12",
+  "palette": {
+    "bg": "#F5C82E",
+    "accent": "#7E5BA0",
+    "text": "#3D2817"
+  },
+  "slides": [
+    {
+      "raw_image": "assets/gorseller/2026-06-25-ogle-12/slide-1.png",
+      "output": "outputs/2026-06-25-ogle-12/slide-1.png",
+      "type": "cover",
+      "title_main": "Fırçalamak",
+      "title_accent": "İstemiyorum!",
+      "subtitle": "Minik bir tilkinin diş fırçası macerası.",
+      "decorations": true
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-25-ogle-12/slide-2.png",
+      "output": "outputs/2026-06-25-ogle-12/slide-2.png",
+      "type": "quote",
+      "quote": "Annecim, senin gülüşün dünyanın en güzel ışığı."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-25-ogle-12/slide-3.png",
+      "output": "outputs/2026-06-25-ogle-12/slide-3.png",
+      "type": "quote",
+      "quote": "Diş fırçası kocaman, ben miniğim — bir bana yardım eder misin?"
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-25-ogle-12/slide-4.png",
+      "output": "outputs/2026-06-25-ogle-12/slide-4.png",
+      "type": "tip",
+      "title_accent": "Ebeveyn Notu",
+      "body": "Çocuğunuz fırçayı reddederken aslında 'kontrol bende olsun' diyor. Önce siz fırçalayın, sonra ona sıra verin; küçük seçimler sunun. İpucu: 2 dakikayı tek bir nakaratla geçirin, banyo oyuna döner."
+    },
+    {
+      "raw_image": "assets/gorseller/2026-06-25-ogle-12/slide-5.png",
+      "output": "outputs/2026-06-25-ogle-12/slide-5.png",
+      "type": "cta",
+      "body": "Yarın yine birlikte fırçalarız, söz! Sincap'ın maceralarının tamamı için Sincap Kitap'ı takip et 🐿️"
+    }
+  ]
+}
